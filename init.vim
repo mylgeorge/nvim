@@ -1,5 +1,4 @@
-" Skip initialization for vim-tiny or vim-small.
-" twig
+"  Skip initialization for vim-tiny or vim-small.
 if !1 | finish | endif
 
 if &compatible
@@ -11,6 +10,113 @@ augroup vimrc
   autocmd!
 augroup END
 
+"------------------
+" general binding
+"------------------
+
+let g:mapleader = "\<Space>"
+nmap <leader>o o<esc>
+nmap <leader>O O<esc>
+map <esc> :noh<cr>
+
+" surround by quotes - frequently use cases of vim-surround
+map <leader>" ysiw"<cr>
+map <leader>' ysiw'<cr>
+
+" indent without kill the selection in vmode
+vmap < <gv
+vmap > >gv
+
+"-----------------
+" general config
+"-----------------
+
+" display tabs, trailing spaces
+
+" change cursor in nvim
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
+" colorscheme
+
+" set the directory where the swap file will be saved
+" set backupdir=~/.config/nvim/backup/
+" set directory=~/.config/nvim/swap/
+
+" save undo trees in files
+if has('persistent_undo')
+  silent !mkdir ~/.config/nvim/undo > /dev/null 2>&1
+  set undodir=~/.config/nvim/undo
+  set undofile
+endif
+
+" set line number
+set number
+set relativenumber
+
+" the copy goes to the clipboard
+set clipboard+=unnamedplus
+
+" use 4 spaces instead of tab (to replace existing tab use :retab)
+" copy indent from current line when starting a new line
+set autoindent
+set expandtab
+set smartindent
+set smarttab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+" when at 3 spaces, and I hit > ... go to 4, not 7
+set shiftround
+
+" number of undo saved in memory
+set undolevels=10000
+set history=1000
+
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
+set gdefault   " when on, the :substitute flag 'g' is default on
+
+" set list
+set list listchars=tab:\┆\ ,trail:·,nbsp:±
+
+set hidden      " hide buffers instead of closing - doesn't prompt a warning when opening a file and the current file was written but not saved
+set lazyredraw  " speed up on large files
+set mouse=      " disable mouse
+set showmode    " doesn't display the mode status
+
+" Keep cursor more in middle when scrolling down / up
+set scrolloff=300
+
+" no swap files! This is just annoying
+set noswapfile
+set nobackup
+set nowb
+
+" read and write automatically when quitting buffer
+set autowrite
+set autoread
+
+set laststatus=1 " always show status line
+set showcmd      " always show current command
+
+set nowrap        " disable wrap for long lines
+set textwidth=0   " disable auto break long lines
+
+" Quick way to save file
+nmap <leader>w :write<CR>
+nmap <Leader>r :redraw!<Enter>
+
+" Enables you to save files with :w!! by using sudo if you forgot to open it as root
+cmap w!! %!sudo tee > /dev/null %
+
+" Remove trailing whitespaces in current buffer
+nnoremap <Leader><BS> :1,$s/[  ]*$//<CR>:nohlsearch<CR>1G
+
+" restore the position of the last cursor when you open a file
+" autocmd vimrc BufReadPost * call general#RestorePosition()
+
+
 " Autoinstall vim-plug {{{
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
@@ -18,17 +124,17 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall
 endif
 " }}}
-"
+
 "----------------
 " install plugin
 "-----------------
-call plug#begin('~/.config/nvim/plugged')
-
-
+call plug#begin('~/.config/nvim/plugged') " Plugins initialization start {{{
+" }}}
 " File Navigation
 " ====================================================================
-Plug 'scrooloose/nerdtree'
 " {{{
+Plug 'scrooloose/nerdtree'
+  let g:NERDTreeQuitOnOpen = 1
   let g:NERDTreeMinimalUI = 1
   let g:NERDTreeHijackNetrw = 0
   let g:NERDTreeWinSize = 31
@@ -47,17 +153,17 @@ Plug 'scrooloose/nerdtree'
       execute ':NERDTreeFind'
     endif
   endfunction
-" }}}<Paste>
+" }}}
 
 " fzf - poweful fuzzy finder
+" {{{
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-" {{{
   let g:fzf_nvim_statusline = 0 " disable statusline overwriting
 
   nnoremap <silent> <leader><space> :Files<CR>
-  nnoremap <silent> <leader>b :Buffers<CR>
-  nnoremap <silent> <leader>A :Windows<CR>
+  nnoremap <silent> <leader><tab>   :Buffers<CR>
+  nnoremap <silent> <leader>W :Windows<CR>
   nnoremap <silent> <leader>; :BLines<CR>
   nnoremap <silent> <leader>o :BTags<CR>
   nnoremap <silent> <leader>O :Tags<CR>
@@ -98,51 +204,49 @@ Plug 'junegunn/fzf.vim'
 
 " Text Navigation
 " ====================================================================
-Plug 'Lokaltog/vim-easymotion'
 " {{{
+Plug 'Lokaltog/vim-easymotion'
   let g:EasyMotion_do_mapping = 0
   let g:EasyMotion_smartcase = 1
-  let g:EasyMotion_off_screen_search = 0
-  nmap ; <Plug>(easymotion-s2)
+  nmap \ <Plug>(easymotion-sn)
+  nmap s <Plug>(easymotion-overwin-f)
 " }}}
-Plug 'rhysd/clever-f.vim'
 " {{{
-  let g:clever_f_across_no_line = 1
+Plug 'rhysd/clever-f.vim'
+  let g:clever_f_acro = 1
+  let g:clever_f_smart_case = 1
 " }}}
 
 " Text Manipulation
 " ====================================================================
-
 " surrounding with whatever you want (paranthesis, quotes...)
 Plug 'tpope/vim-surround'
-Plug 'junegunn/vim-easy-align'
 " {{{
+Plug 'junegunn/vim-easy-align'
   let g:easy_align_ignore_comment = 0 " align comments
   vnoremap <silent> <Enter> :EasyAlign<cr>
 " }}}
-" Plug 'tomtom/tcomment_vim'
-Plug 'tpope/vim-commentary'
 " {{{
-  map <C-_> gcc
+Plug 'tomtom/tcomment_vim'
 "  }}}
-Plug 'Raimondi/delimitMate'
+" Plug 'Raimondi/delimitMate'
 " {{{
-  let delimitMate_expand_cr = 2
-  let delimitMate_expand_space = 1 " {|} => { | }
+"   let delimitMate_expand_cr = 2
+"   let delimitMate_expand_space = 1 " {|} => { | }
 " }}}
-Plug 'AndrewRadev/splitjoin.vim'
-Plug 'AndrewRadev/switch.vim'
+" Plug 'AndrewRadev/splitjoin.vim'
+" Plug 'AndrewRadev/switch.vim'
 " {{{
-  let g:switch_mapping = '\'
+"   let g:switch_mapping = '\'
 " }}}
-Plug 'AndrewRadev/sideways.vim'
+" Plug 'AndrewRadev/sideways.vim'
 " {{{
-  nnoremap <Leader>< :SidewaysLeft<CR>
-  nnoremap <Leader>> :SidewaysRight<CR>
+"   nnoremap <Leader>< :SidewaysLeft<CR>
+"   nnoremap <Leader>> :SidewaysRight<CR>
 " }}}
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-speeddating'
-Plug 'tpope/vim-abolish'
+" Plug 'tpope/vim-endwise'
+" Plug 'tpope/vim-speeddating'
+" Plug 'tpope/vim-abolish'
 
 " snippets
 "Plug 'SirVer/ultisnips'
@@ -174,31 +278,31 @@ Plug 'StanAngeloff/php.vim', {'for': 'php'}
 Plug 'stephpy/vim-php-cs-fixer', {'for': 'php'}
 nnoremap <silent><leader>l :call PhpCsFixerFixFile()<CR>
 let g:php_cs_fixer_verbose = 0
-Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
-Plug 'nishigori/vim-php-dictionary', {'for': 'php'}
+" Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
+" Plug 'nishigori/vim-php-dictionary', {'for': 'php'}
 
 " php doc autocompletion
-Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'}
+" Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'}
 
 
 " refactoring options
-Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
-Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
-Plug 'roxma/ncm-phpactor',  {'for': 'php'}
-Plug '2072/php-indenting-for-vim', {'for': 'php'}
+" Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
+" Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
+" Plug 'roxma/ncm-phpactor',  {'for': 'php'}
+" Plug '2072/php-indenting-for-vim', {'for': 'php'}
 
 
 " javascript plugins
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
 " need to run npm install in the folder ~/nvim/plugged/tern_for_vim
-Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
+" Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
 " Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript', 'javascript.jsx'] }
-Plug 'othree/jspc.vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
+" Plug 'othree/jspc.vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
 
 " Syntax highlighting for vue js framework
-Plug 'posva/vim-vue'
+" Plug 'posva/vim-vue'
 
-Plug 'roxma/nvim-completion-manager'
+" Plug 'roxma/nvim-completion-manager'
 
 call plug#end()  " Plugins initialization finished {{{
 " }}}
@@ -206,88 +310,4 @@ call plug#end()  " Plugins initialization finished {{{
 "----------------
 " plugin config
 "----------------
-
-"------------------
-" general binding
-"------------------
-
-map <SPACE> <leader>
-let g:mapleader = "\<Space>"
-nmap <leader>o o<esc>
-
-" Enables you to save files with :w!! by using sudo if you forgot to open it as root
-cmap w!! %!sudo tee > /dev/null %
-
-" display tabs, trailing spaces
-
-"-----------------
-" general config
-"-----------------
-
-" change cursor in nvim
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-
-" colorscheme
-
-" set the directory where the swap file will be saved
-set backupdir=~/.config/nvim/backup/
-set directory=~/.config/nvim/swap/
-
-" save undo trees in files
-set undofile
-set undodir=~/.config/nvim/undo/
-
-" set line number
-set number
-set relativenumber
-
-" the copy goes to the clipboard
-set clipboard+=unnamedplus
-
-" use 4 spaces instead of tab (to replace existing tab use :retab)
-" copy indent from current line when starting a new line
-set autoindent
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-" when at 3 spaces, and I hit > ... go to 4, not 7
-set shiftround
-
-" number of undo saved in memory
-set undolevels=10000
-
-" Use case insensitive search, except when using capital letters
-set ignorecase
-set smartcase
-set gdefault   " when on, the :substitute flag 'g' is default on
-
-" set list
-set list listchars=tab:\┆\ ,trail:·,nbsp:±
-
-set hidden      " hide buffers instead of closing - doesn't prompt a warning when opening a file and the current file was written but not saved
-set lazyredraw  " speed up on large files
-set mouse=      " disable mouse
-set noshowmode  " doesn't display the mode status
-
-" Keep cursor more in middle when scrolling down / up
-set scrolloff=30
-
-" no swap file! This is just annoying
-set noswapfile
-
-" write automatically when quitting buffer
-set autowrite
-
-set laststatus=2 " always show status line
-set showcmd      " always show current command
-
-set nowrap        " disable wrap for long lines
-set textwidth=0   " disable auto break long lines
-
-" Quick way to save file
-nnoremap <leader>w :w<CR><Paste>
-
-" Remove trailing whitespaces in current buffer
-nnoremap <Leader><BS> :1,$s/[  ]*$//<CR>:nohlsearch<CR>1G
 
