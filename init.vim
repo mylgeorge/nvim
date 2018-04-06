@@ -1,4 +1,4 @@
-"  Skip initialization for vim-tiny or vim-small.
+" Skip initialization for vim-tiny or vim-small.
 if !1 | finish | endif
 
 if &compatible
@@ -75,7 +75,7 @@ set history=1000
 " Use case insensitive search, except when using capital letters
 set ignorecase
 set smartcase
-set gdefault   " when on, the :substitute flag 'g' is default on
+set gdefault    " when on, the :substitute flag 'g' is default on
 
 " set list
 set list listchars=tab:\┆\ ,trail:·,nbsp:±
@@ -115,7 +115,6 @@ nnoremap <Leader><BS> :1,$s/[  ]*$//<CR>:nohlsearch<CR>1G
 
 " restore the position of the last cursor when you open a file
 " autocmd vimrc BufReadPost * call general#RestorePosition()
-
 
 " Autoinstall vim-plug {{{
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
@@ -162,11 +161,11 @@ Plug 'junegunn/fzf.vim'
   let g:fzf_nvim_statusline = 0 " disable statusline overwriting
 
   nnoremap <silent> <leader><space> :Files<CR>
-  nnoremap <silent> <leader><tab>   :Buffers<CR>
+  nnoremap <silent> <leader>b :Buffers<CR>
   nnoremap <silent> <leader>W :Windows<CR>
   nnoremap <silent> <leader>; :BLines<CR>
-  nnoremap <silent> <leader>o :BTags<CR>
-  nnoremap <silent> <leader>O :Tags<CR>
+  nnoremap <silent> <leader>t :BTags<CR>
+  nnoremap <silent> <leader>T :Tags<CR>
   nnoremap <silent> <leader>? :History<CR>
   nnoremap <silent> <leader>/ :execute 'Ag ' . input('Ag/')<CR>
   nnoremap <silent> <leader>. :AgIn
@@ -229,10 +228,10 @@ Plug 'junegunn/vim-easy-align'
 " {{{
 Plug 'tomtom/tcomment_vim'
 "  }}}
-" Plug 'Raimondi/delimitMate'
 " {{{
-"   let delimitMate_expand_cr = 2
-"   let delimitMate_expand_space = 1 " {|} => { | }
+Plug 'Raimondi/delimitMate'
+   let delimitMate_expand_cr = 2
+   let delimitMate_expand_space = 1 " {|} => { | }
 " }}}
 " Plug 'AndrewRadev/splitjoin.vim'
 " Plug 'AndrewRadev/switch.vim'
@@ -244,14 +243,25 @@ Plug 'tomtom/tcomment_vim'
 "   nnoremap <Leader>< :SidewaysLeft<CR>
 "   nnoremap <Leader>> :SidewaysRight<CR>
 " }}}
-" Plug 'tpope/vim-endwise'
-" Plug 'tpope/vim-speeddating'
-" Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-speeddating'
+Plug 'tpope/vim-abolish'
 
 " snippets
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
 
+" Autocomplete
+" ====================================================================
+if has('nvim')
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+endif
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#tag#cache_limit_size = 9000000000
+let g:deoplete#source = {}
+let g:deoplete#source._ = ['buffer', 'tag']
+Plug 'padawan-php/deoplete-padawan', { 'do': 'composer install' }
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " Utility
 " ====================================================================
 
@@ -272,7 +282,6 @@ Plug 'tomtom/tcomment_vim'
 "   nnoremap <leader>t! :GutentagsUpdate!<CR>
 " " }}}
 
-" Plug 'StanAngeloff/php.vim'
 " php autocompletion engine and tools
 Plug 'StanAngeloff/php.vim', {'for': 'php'}
 Plug 'stephpy/vim-php-cs-fixer', {'for': 'php'}
