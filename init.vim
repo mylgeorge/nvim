@@ -1,17 +1,10 @@
-" Skip initialization for vim-tiny or vim-small.
-if !1 | finish | endif
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General {{{
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Declare the general config group for autocommand
 augroup vimrc
   autocmd!
 augroup END
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General {{{
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if &compatible
-    set nocompatible
-endif
 
 " Enable filetype plugins
 filetype plugin on
@@ -26,7 +19,7 @@ set clipboard+=unnamedplus
 
 " Sets how many lines of history VIM has to remember
 set history=1000
-set undolevels=10000
+set undolevels=1000
 
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
@@ -42,7 +35,8 @@ endif
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
-let g:mapleader = "\<Space>"
+let g:mapleader = ","
+set timeoutlen=2000 ttimeoutlen=0
 
 " Fast saving
 nnoremap <leader>w :w!<cr>
@@ -50,7 +44,7 @@ nnoremap <leader>e :e!<cr>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
+command! W w !sudo tee % > /dev/null
 " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface {{{
@@ -63,21 +57,18 @@ set wildignore=*.o,*~,*.pyc,*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
-" No annoying sound on errors
-set noerrorbells
-set novisualbell
-set t_vb=
-set tm=500
-
-set number " set line number
+set title
+set number        " set line number
 set scrolloff=300 " Keep cursor more in middle when scrolling down / up
 set hidden        " hide buffers instead of closing - doesn't prompt a warning when opening a file and the current file was written but not saved
 set ruler         " Displays cursor position on bottom right of screen
+
 set ignorecase    " Case Insensitive Searching
 set smartcase     " Lowercase = case insensitive, any uppercase = case sensitive
 set hlsearch      " Highlight all search results
 set incsearch     " Search while typing
 set gdefault      " when on, the :substitute flag 'g' is default on
+
 set lazyredraw    " speed up on large files
 set magic         " For regular expressions turn magic on
 set showmatch     " Show matching brackets when text indicator is over them
@@ -98,45 +89,47 @@ set nowrap
 set textwidth=0   " disable auto break long lines
 
 set list listchars=tab:\┆\ ,trail:·,nbsp:±
-set laststatus=2 " always show status line
-set mouse=      " disable mouse
-set noshowmode  " doesn't display the mode status
+set laststatus=2  " always show status line
+set mouse=        " disable mouse
+set noshowmode    " doesn't display the mode status
+set showcmd
+
+set nofoldenable
+set foldmethod=indent
+
 set cursorline
-au WinEnter * setlocal cursorline " | setlocal cursorcolumn
-au WinLeave * setlocal nocursorline " | setlocal nocursorcolumn
+autocmd vimrc WinEnter * setlocal cursorline " | setlocal cursorcolumn
+autocmd vimrc WinLeave * setlocal nocursorline " | setlocal nocursorcolumn
 
 " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Enable syntax highlighting
-syntax enable 
+set encoding=utf8           " Set utf8 as standard encoding and en_US as the standard language
+set ffs=unix,dos,mac        " Use Unix as the standard file type
+
+syntax enable               " Enable syntax highlighting
 set background=dark
-set t_Co=256
+set t_Co=256                " set termguicolors
 
-try
-    colorscheme monokai
-catch
-    colorscheme desert
-endtry
-
-set encoding=utf8    " Set utf8 as standard encoding and en_US as the standard language
-set ffs=unix,dos,mac " Use Unix as the standard file type
-
-    " PHP {{{
-        hi! link phpIdentifier Normal
-        hi! link phpVarSelector phpIdentifier
-        hi! link phpFunction SublimeOrange
-        hi! link phpFunctions Typedef
-        hi! link phpMethod Tag
-        hi! link phpType Define
-        hi! link phpKeyword Define
-        hi! link phpParent Normal
-        hi! link phpStatement Keyword
-        hi! link phpDefine phpStatement
-        hi! link phpInclude phpStatement
-        hi! link phpNull Boolean
-    " }}}
+silent! colorscheme monokai " colorscheme
+highlight MatchParen gui=underline guibg=#575b61 guifg=NONE cterm=underline ctermbg=237 ctermfg=NONE
+" PHP {{{
+    hi! link phpParent Normal
+    hi! link phpIdentifier Normal
+    hi! link phpVarSelector phpIdentifier
+    hi! link phpFunction SublimeOrange
+    hi! link phpFunctions Typedef
+    hi! link phpClasses Typedef
+    hi! link phpMethod Tag
+    hi! link phpType Define
+    hi! link phpKeyword Define
+    hi! link phpStatement Keyword
+    hi! link phpDefine phpStatement
+    hi! link phpInclude phpStatement
+    hi! link phpNullValue Boolean
+    hi! link phpDocTags Comment
+" }}}
 " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings {{{
@@ -145,7 +138,8 @@ nnoremap <leader>h :noh<CR>
 nnoremap <cr> o
 
 " Remove trailing whitespaces in current buffer
-nnoremap <Leader><BS> :1,$s/[  ]*$//<CR>:nohlsearch<CR>1G
+" nnoremap <Leader><BS> :1,$s/[  ]*$//<CR>:nohlsearch<CR>
+nnoremap <silent> <Leader><BS> :call StripTrailingWhitespaces()<CR>
 " }}}
 
 
@@ -207,7 +201,7 @@ vmap > >gv
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall
+  autocmd vimrc VimEnter * PlugInstall
 endif
 " }}}
 
@@ -247,7 +241,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
   let g:fzf_nvim_statusline = 0 " disable statusline overwriting
 
-  nnoremap <silent> <leader><space> :Files<CR>
+  nnoremap <silent> <leader>f :Files<CR>
   nnoremap <silent> <leader>b :Buffers<CR>
   nnoremap <silent> <leader>W :Windows<CR>
   nnoremap <silent> <leader>; :BLines<CR>
@@ -255,7 +249,7 @@ Plug 'junegunn/fzf.vim'
   nnoremap <silent> <leader>T :Tags<CR>
   nnoremap <silent> <leader>? :History<CR>
   nnoremap <silent> <leader>/ :execute 'Ag ' . input('Ag/')<CR>
-  nnoremap <silent> <leader>. :AgIn
+  nnoremap <leader>. :AgIn 
 
   nnoremap <silent> K :call SearchWordWithAg()<CR>
   vnoremap <silent> K :call SearchVisualSelectionWithAg()<CR>
@@ -283,7 +277,8 @@ Plug 'junegunn/fzf.vim'
   endfunction
 
   function! SearchWithAgInDirectory(...)
-    call fzf#vim#ag(join(a:000[1:], ' '), extend({'dir': a:1}, g:fzf#vim#default_layout))
+    " call fzf#vim#ag(join(a:000[1:], ' '), extend({'dir': a:1}, g:fzf#vim#default_layout))
+    call fzf#vim#ag(join(a:000[1:], ' '), {'dir': a:1})
   endfunction
   command! -nargs=+ -complete=dir AgIn call SearchWithAgInDirectory(<f-args>)
 " }}}
@@ -333,6 +328,17 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-fugitive'
+"------  Fugitive  ------ 
+"https://github.com/tpope/vim-fugitive
+nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gr :Gremove<CR>
+nnoremap <Leader>gb :Gblame<CR>
+nnoremap <Leader>gm :Gmove 
+nnoremap <Leader>gp :Ggrep 
+nnoremap <Leader>gR :Gread<CR>
+nnoremap <Leader>gg :Git 
+nnoremap <Leader>gd :Gdiff<CR>
+Plug 'mhinz/vim-signify'
 " snippets
 "Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -346,12 +352,12 @@ if has('nvim')
     let g:deoplete#enable_at_startup = 1
     let g:deoplete#custom#converters = ['converter_auto_paren']
 endif
-" let g:deoplete#converter_auto_paren = 1
-" let g:deoplete#tag#cache_limit_size = 900000000
+let g:deoplete#converter_auto_paren = 1
+let g:deoplete#tag#cache_limit_size = 100000000
 " let g:deoplete#source = {}
 " let g:deoplete#source._ = ['buffer', 'tag']
-let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
-let g:deoplete#ignore_sources.php = ['omni']
+" let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
+" let g:deoplete#ignore_sources.php = ['omni']
 Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 
 " Plug 'padawan-php/deoplete-padawan', { 'do': 'composer install' }
@@ -387,11 +393,14 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
 "   let g:gutentags_generate_on_new = 0
 nnoremap <leader>tt :GutentagsUpdate!<CR>
 " " }}}
-
+Plug 'sheerun/vim-polyglot'          " newer language support
 " php autocompletion engine and tools
-Plug 'StanAngeloff/php.vim', {'for': 'php'}
+
+" wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
+" sudo chmod a+x php-cs-fixer
+" sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
 Plug 'stephpy/vim-php-cs-fixer', {'for': 'php'}
-nnoremap <silent><leader>l :call PhpCsFixerFixFile()<CR>
+nnoremap <silent><leader>l :silent! call PhpCsFixerFixFile()<CR>
 let g:php_cs_fixer_verbose = 0
 Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
 " Plug 'nishigori/vim-php-dictionary', {'for': 'php'}
@@ -399,7 +408,7 @@ Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
 " php doc autocompletion
 " Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'}
 
-
+nnoremap <c-l> mlgg=G'l
 " refactoring options
 " Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
 " Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
@@ -408,32 +417,59 @@ Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
 
 
 " javascript plugins
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
 " need to run npm install in the folder ~/nvim/plugged/tern_for_vim
 " Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
 " Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript', 'javascript.jsx'] }
 " Plug 'othree/jspc.vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
 
 " Syntax highlighting for vue js framework
-Plug 'posva/vim-vue'
+" Plug 'posva/vim-vue'
 
 " Plug 'roxma/nvim-completion-manager'
+" Plug 'chriskempson/base16-vim'
 " Plug 'flazz/vim-colorschemes'
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+" let g:airline#extensions#tabline#enabled = 1
+" Plug 'Yggdroot/indentLine'
+Plug '2072/PHP-Indenting-for-VIm'
+Plug 'w0rp/ale'
 Plug 'itchyny/lightline.vim'
 let g:lightline = {
-      \ 'colorscheme': 'jellybeans',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head'
-      \ },
-      \ }
+    \ 'colorscheme': 'jellybeans',
+    \ 'active': {
+    \   'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified'], ['tagbar', 'gutentags']],
+    \   'right': [['lineinfo'], ['fileinfo'], ['filetype'] ] 
+    \ },
+    \ 'inactive': {
+    \   'left': [['absolutepath']],
+    \   'right': [['lineinfo'], ['filetype']]
+    \ },
+    \ 'component': {
+    \   'lineinfo': '%c: %l/%L [%p%%], %n',
+    \   'gutentags': '%{gutentags#statusline("[","...]")}',
+    \   'fileinfo': '%{&fenc!=#""?&fenc:&enc}[%{&ff}]',
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'fugitive#head',
+    \   'window': 'win_getid',
+    \ }
+    \ }
 
 call plug#end()  " Plugins initialization finished {{{
 " }}}
+
+function! StripTrailingWhitespaces()
+  if &modifiable
+    let l:l = line('.')
+    let l:c = col('.')
+    call execute(':silent! %s/\s\+$//')
+    call histdel('/', -1)
+    call cursor(l:l, l:c)
+  endif
+endfunction
 
 "----------------
 " plugin config
