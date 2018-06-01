@@ -39,7 +39,7 @@ let g:mapleader = ","
 set timeoutlen=2000 ttimeoutlen=0
 
 " Fast saving
-nnoremap <leader>w :w!<cr>
+nnoremap <c-s> :w!<cr>
 nnoremap <leader>e :e!<cr>
 
 " :W sudo saves the file 
@@ -112,23 +112,25 @@ syntax enable               " Enable syntax highlighting
 set background=dark
 set t_Co=256                " set termguicolors
 
-silent! colorscheme monokai " colorscheme
-highlight MatchParen gui=underline guibg=#575b61 guifg=NONE cterm=underline ctermbg=237 ctermfg=NONE
+silent! colorscheme solarized8_dark_high "monokai  colorscheme
+silent! colorscheme monokai "  colorscheme
+" highlight MatchParen gui=underline guibg=#575b61 guifg=NONE cterm=underline ctermbg=237 ctermfg=NONE
 " PHP {{{
     hi! link phpParent Normal
     hi! link phpIdentifier Normal
     hi! link phpVarSelector phpIdentifier
     hi! link phpFunction SublimeOrange
-    hi! link phpFunctions Typedef
-    hi! link phpClasses Typedef
-    hi! link phpMethod Tag
+    hi! link phpFunctions Type
+    hi! link phpClasses Normal
+    " hi! link phpMethod Type
+    " hi! link phpRegion Type
     hi! link phpType Define
-    hi! link phpKeyword Define
-    hi! link phpStatement Keyword
-    hi! link phpDefine phpStatement
-    hi! link phpInclude phpStatement
+    hi! link phpKeyword phpType
+    hi! link phpStatement phpType
+    hi! link phpDefine phpType
+    hi! link phpInclude phpType
     hi! link phpNullValue Boolean
-    hi! link phpDocTags Comment
+    " hi! link phpDocTags Todo
 " }}}
 " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -177,8 +179,6 @@ vmap > >gv
 " set the directory where the swap file will be saved
 " set backupdir=~/.config/nvim/backup/
 " set directory=~/.config/nvim/swap/
-
-
 
 
 " use 4 spaces instead of tab (to replace existing tab use :retab)
@@ -341,24 +341,43 @@ nnoremap <Leader>gd :Gdiff<CR>
 Plug 'mhinz/vim-signify'
 " snippets
 "Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'honza/vim-snippets'
+" Track the engine.
+" if you use Vundle, load plugins:
+Plug 'ervandew/supertab'
+Plug 'SirVer/ultisnips'
 
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<s-tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsEditSplit="vertical"
+" let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips', $HOME.'/.vim/bundle/sniphpets-common/UltiSnips', $HOME.'/.vim/bundle/sniphpets']
+
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
+" Plug 'Shougo/echodoc.vim'
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+" let g:UltiSnipsExpandTrigger="<s-tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
 " Autocomplete
 " ====================================================================
-let $PATH=$PATH . ':' . expand('~/.composer/vendor/bin')
+" let $PATH=$PATH . ':' . expand('~/.composer/vendor/bin')
 " autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-if has('nvim')
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
-    let g:deoplete#enable_at_startup = 1
-    let g:deoplete#custom#converters = ['converter_auto_paren']
-endif
-let g:deoplete#converter_auto_paren = 1
-let g:deoplete#tag#cache_limit_size = 100000000
-" let g:deoplete#source = {}
-" let g:deoplete#source._ = ['buffer', 'tag']
-" let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
-" let g:deoplete#ignore_sources.php = ['omni']
+Plug 'valloric/youcompleteme'
 Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+let g:phpcd_php_cli_executable = 'php'
+" Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'roxma/LanguageServer-php-neovim',  {'for': 'php', 'do': 'composer install && composer run-script parse-stubs'}
 
 " Plug 'padawan-php/deoplete-padawan', { 'do': 'composer install' }
 " command! PadawanStart call deoplete#sources#padawan#StartServer()
@@ -367,7 +386,7 @@ Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 " command! PadawanInstall call deoplete#sources#padawan#InstallServer()
 " command! PadawanUpdate call deoplete#sources#padawan#UpdateServer()
 " command! -bang PadawanGenerate call deoplete#sources#padawan#Generate(<bang>0)
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr><TAB> pumvisible() ? '\<C-n>' : '\<TAB>'
 " Utility
 " ====================================================================
 
@@ -378,10 +397,10 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
                             \ '*.phar', '*.ini', '*.rst', '*.md',
                             \ '*vendor/*/test*', '*vendor/*/Test*',
                             \ '*vendor/*/fixture*', '*vendor/*/Fixture*',
-                            \ '*var/cache*', '*var/log*']
+                            \ '*var/cache*', '*var/log*', '*node_modules*']
 "   let g:gutentags_exclude = [
 "       \ '*.min.js',
-"       \ '*html*',
+"       \ '*highlightingml*',
 "       \ 'jquery*.js',
 "       \ '*/vendor/*',
 "       \ '*/node_modules/*',
@@ -394,6 +413,7 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
 nnoremap <leader>tt :GutentagsUpdate!<CR>
 " " }}}
 Plug 'sheerun/vim-polyglot'          " newer language support
+Plug 'lifepillar/vim-solarized8'
 " php autocompletion engine and tools
 
 " wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
@@ -404,19 +424,35 @@ nnoremap <silent><leader>l :silent! call PhpCsFixerFixFile()<CR>
 let g:php_cs_fixer_verbose = 0
 Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
 " Plug 'nishigori/vim-php-dictionary', {'for': 'php'}
-
+syn keyword new contained
+            \ nextgroup=phpClasses skipwhite skipempty
+" syn match phpClasses /\h\w*/ contained
 " php doc autocompletion
 " Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'}
 
 nnoremap <c-l> mlgg=G'l
+inoremap <C-Space> <C-x><C-o>
+imap <C-@> <C-Space>
 " refactoring options
 " Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
 " Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 " Plug 'roxma/ncm-phpactor',  {'for': 'php'}
 " Plug '2072/php-indenting-for-vim', {'for': 'php'}
 
+nnoremap <silent> K :call LanguageClient_textDocument_hover()<CR>
+nnoremap <silent> gd :call LanguageClient_textDocument_definition()<CR>
+nnoremap <silent> <F2> :call LanguageClient_textDocument_rename()<CR>
 
+"" Reloads the vim config after saving.
+augroup myvimrc
+        au!
+        au BufWritePost init.vim,.vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END
 " javascript plugins
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+autocmd! vimrc BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
+
 " Plug 'pangloss/vim-javascript'
 " need to run npm install in the folder ~/nvim/plugged/tern_for_vim
 " Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx', 'vue'] }
@@ -436,11 +472,13 @@ nnoremap <c-l> mlgg=G'l
 " Plug 'Yggdroot/indentLine'
 Plug '2072/PHP-Indenting-for-VIm'
 Plug 'w0rp/ale'
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 0
 Plug 'itchyny/lightline.vim'
 let g:lightline = {
     \ 'colorscheme': 'jellybeans',
     \ 'active': {
-    \   'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified'], ['tagbar', 'gutentags']],
+    \   'left': [['mode', 'paste'], ['gitbranch', 'readonly', 'filename', 'modified'], ['tagbar', 'ale', 'gutentags']],
     \   'right': [['lineinfo'], ['fileinfo'], ['filetype'] ] 
     \ },
     \ 'inactive': {
@@ -451,6 +489,7 @@ let g:lightline = {
     \   'lineinfo': '%c: %l/%L [%p%%], %n',
     \   'gutentags': '%{gutentags#statusline("[","...]")}',
     \   'fileinfo': '%{&fenc!=#""?&fenc:&enc}[%{&ff}]',
+    \   'ale': '%{ale#statusline#Status()}',
     \ },
     \ 'component_function': {
     \   'gitbranch': 'fugitive#head',

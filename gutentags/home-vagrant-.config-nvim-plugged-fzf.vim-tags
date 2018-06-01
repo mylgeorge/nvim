@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/8e09804/
+<Plug>(-fzf-complete-trigger)	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^inoremap <silent> <Plug>(-fzf-complete-trigger) <c-o>:call <sid>complete_trigger()<cr>$/;"	m
+<plug>(-fzf-vim-do)	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^nnoremap <plug>(-fzf-vim-do) :execute g:__fzf_command<cr>$/;"	m
+<plug>(fzf-complete-buffer-line)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-buffer-line) fzf#vim#complete#buffer_line()$/;"	m
+<plug>(fzf-complete-file)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-file)      fzf#vim#complete#path("find . -path '*\/\\.*' -/;"	m
+<plug>(fzf-complete-file)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-file)      fzf#vim#complete#path('dir \/s\/b\/a:-d')$/;"	m
+<plug>(fzf-complete-file-ag)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-file-ag)     fzf#vim#complete#path('ag -l -g ""')$/;"	m
+<plug>(fzf-complete-line)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-line)        fzf#vim#complete#line()$/;"	m
+<plug>(fzf-complete-path)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-path)      fzf#vim#complete#path("find . -path '*\/\\.*' -/;"	m
+<plug>(fzf-complete-path)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-path)      fzf#vim#complete#path('dir \/s\/b')$/;"	m
+<plug>(fzf-complete-word)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-word)        fzf#vim#complete#word()$/;"	m
+<plug>(fzf-maps-i)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <silent> <plug>(fzf-maps-i) <c-o>:call fzf#vim#maps('i', 0)<cr>$/;"	m
+<plug>(fzf-maps-n)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^nnoremap <silent> <plug>(fzf-maps-n) :<c-u>call fzf#vim#maps('n', 0)<cr>$/;"	m
+<plug>(fzf-maps-o)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^onoremap <silent> <plug>(fzf-maps-o) <c-c>:<c-u>call fzf#vim#maps('o', 0)<cr>$/;"	m
+<plug>(fzf-maps-x)	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^xnoremap <silent> <plug>(fzf-maps-x) :<c-u>call fzf#vim#maps('x', 0)<cr>$/;"	m
+_fzf_statusline	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  augroup _fzf_statusline$/;"	a
+fzf#complete	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^function! fzf#complete(...)$/;"	f
+fzf#vim#_lines	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#_lines(all)$/;"	f
+fzf#vim#_uniq	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#_uniq(list)$/;"	f
+fzf#vim#ag	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#ag(query, ...)$/;"	f
+fzf#vim#ag_raw	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#ag_raw(command_suffix, ...)$/;"	f
+fzf#vim#buffer_commits	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_commits(...)$/;"	f
+fzf#vim#buffer_lines	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_lines(...)$/;"	f
+fzf#vim#buffer_tags	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_tags(query, ...)$/;"	f
+fzf#vim#buffers	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffers(...)$/;"	f
+fzf#vim#colors	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#colors(...)$/;"	f
+fzf#vim#command_history	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#command_history(...)$/;"	f
+fzf#vim#commands	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#commands(...)$/;"	f
+fzf#vim#commits	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#commits(...)$/;"	f
+fzf#vim#complete	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#complete(...)$/;"	f
+fzf#vim#complete#buffer_line	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#buffer_line(...)$/;"	f
+fzf#vim#complete#line	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#line(...)$/;"	f
+fzf#vim#complete#path	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#path(command, ...)$/;"	f
+fzf#vim#complete#word	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#word(...)$/;"	f
+fzf#vim#files	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#files(dir, ...)$/;"	f
+fzf#vim#filetypes	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#filetypes(...)$/;"	f
+fzf#vim#gitfiles	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#gitfiles(args, ...)$/;"	f
+fzf#vim#grep	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#grep(grep_command, with_column, ...)$/;"	f
+fzf#vim#helptags	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#helptags(...)$/;"	f
+fzf#vim#history	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#history(...)$/;"	f
+fzf#vim#lines	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#lines(...)$/;"	f
+fzf#vim#locate	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#locate(query, ...)$/;"	f
+fzf#vim#maps	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#maps(mode, ...)$/;"	f
+fzf#vim#marks	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#marks(...)$/;"	f
+fzf#vim#search_history	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#search_history(...)$/;"	f
+fzf#vim#snippets	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#snippets(...)$/;"	f
+fzf#vim#tags	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#tags(query, ...)$/;"	f
+fzf#vim#windows	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#windows(...)$/;"	f
+fzf#vim#with_preview	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#with_preview(...)$/;"	f
+fzf_buffers	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^augroup fzf_buffers$/;"	a
+g:__fzf_command	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let g:__fzf_command = "normal ".a:type.item."\\<cr>"$/;"	v
+g:fzf#vim#buffers	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^let g:fzf#vim#buffers = {}$/;"	v
+opts.sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! opts.sink(lines)$/;"	f
+s:TYPE	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:TYPE = {'dict': type({}), 'funcref': type(function('call')), 'string': type(''), 'list': t/;"	v
+s:action_for	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:action_for(key, ...)$/;"	f
+s:ag_handler	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ag_handler(lines, with_column)$/;"	f
+s:ag_to_qf	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ag_to_qf(line, with_column)$/;"	f
+s:align_lists	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:align_lists(lists)$/;"	f
+s:align_pairs	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:align_pairs(list)$/;"	f
+s:all_files	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:all_files()$/;"	f
+s:ansi	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ansi(str, group, default, ...)$/;"	f
+s:ansi	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:ansi = {'black': 30, 'red': 31, 'green': 32, 'yellow': 33, 'blue': 34, 'magenta': 35, 'cya/;"	v
+s:bin	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let s:bin.preview = fnamemodify(s:bin.preview, ':8')$/;"	v
+s:bin	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let s:bin.preview = split(system('for %A in ("'.s:bin.preview.'") do @echo %~sA'), "\\n")[0]$/;"	v
+s:bin	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  let s:bin.preview = (executable('ruby') ? 'ruby' : 'bash').' '.escape(s:bin.preview, '\\')$/;"	v
+s:bin	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:bin = {$/;"	v
+s:bin_dir	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:bin_dir = expand('<sfile>:h:h:h').'\/bin\/'$/;"	v
+s:btags_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:btags_sink(lines)$/;"	f
+s:btags_source	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:btags_source(tag_cmds)$/;"	f
+s:buffer_line_handler	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buffer_line_handler(lines)$/;"	f
+s:buffer_lines	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buffer_lines()$/;"	f
+s:buflisted	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buflisted()$/;"	f
+s:buflisted_sorted	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buflisted_sorted()$/;"	f
+s:bufopen	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:bufopen(lines)$/;"	f
+s:chomp	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:chomp(str)$/;"	f
+s:cmd_history_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:cmd_history_sink(lines)$/;"	f
+s:command_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:command_sink(lines)$/;"	f
+s:commits	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:commits(buffer_local, args)$/;"	f
+s:commits_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:commits_sink(lines)$/;"	f
+s:complete_insert	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:complete_insert(lines)$/;"	f
+s:complete_trigger	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:complete_trigger()$/;"	f
+s:cpo_save	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^let s:cpo_save = &cpo$/;"	v
+s:csi	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:csi(color, fg)$/;"	f
+s:default_action	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:default_action = {$/;"	v
+s:defs	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^function! s:defs(commands)$/;"	f
+s:escape	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:escape(path)$/;"	f
+s:eval	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:eval(dict, key, arg)$/;"	f
+s:excmds	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:excmds()$/;"	f
+s:extend	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:extend(base, extra)$/;"	f
+s:extend_opts	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:extend_opts(dict, eopts, prepend)$/;"	f
+s:file_options	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_options(prefix)$/;"	f
+s:file_source	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_source(prefix)$/;"	f
+s:file_split_prefix	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_split_prefix(prefix)$/;"	f
+s:find_open_window	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:find_open_window(b)$/;"	f
+s:first_line	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:first_line(lines)$/;"	f
+s:fname_prefix	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:fname_prefix(str)$/;"	f
+s:format_buffer	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_buffer(b)$/;"	f
+s:format_cmd	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_cmd(line)$/;"	f
+s:format_excmd	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_excmd(ex)$/;"	f
+s:format_mark	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_mark(line)$/;"	f
+s:format_win	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_win(tab, win, buf)$/;"	f
+s:function	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! s:function(name)$/;"	f
+s:function	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^  function! s:function(name)$/;"	f
+s:fzf	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:fzf(name, opts, extra)$/;"	f
+s:fzf_restore_colors	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  function! s:fzf_restore_colors()$/;"	f
+s:fzf_vim_term	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^  function! s:fzf_vim_term()$/;"	f
+s:get_color	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:get_color(attr, ...)$/;"	f
+s:get_git_root	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:get_git_root()$/;"	f
+s:helptag_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:helptag_sink(line)$/;"	f
+s:highlight_keys	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:highlight_keys(str)$/;"	f
+s:history	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^function! s:history(arg, bang)$/;"	f
+s:history_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:history_sink(type, lines)$/;"	f
+s:history_source	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:history_source(type)$/;"	f
+s:inject_snippet	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:inject_snippet(line)$/;"	f
+s:is_win	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:is_win	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:is_win	/home/vagrant/.config/nvim/plugged/fzf.vim/plugin/fzf.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:jump	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:jump(t, w)$/;"	f
+s:key_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:key_sink(line)$/;"	f
+s:layout_keys	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:layout_keys = ['window', 'up', 'down', 'left', 'right']$/;"	v
+s:line_handler	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:line_handler(lines)$/;"	f
+s:mark_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:mark_sink(lines)$/;"	f
+s:merge_opts	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:merge_opts(dict, eopts)$/;"	f
+s:nbs	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:nbs = nr2char(0x2007)$/;"	v
+s:open	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:open(cmd, target)$/;"	f
+s:pluck	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:pluck(dict, key, default)$/;"	f
+s:prepend_opts	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:prepend_opts(dict, eopts)$/;"	f
+s:q	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:q(query)$/;"	f
+s:reduce_line	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:reduce_line(lines)$/;"	f
+s:remove_layout	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:remove_layout(opts)$/;"	f
+s:search_history_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:search_history_sink(lines)$/;"	f
+s:shortpath	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:shortpath()$/;"	f
+s:sort_buffers	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:sort_buffers(...)$/;"	f
+s:strip	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:strip(str)$/;"	f
+s:tags_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:tags_sink(lines)$/;"	f
+s:warn	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:warn(message)$/;"	f
+s:wide	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:wide = 120$/;"	v
+s:windows_sink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:windows_sink(line)$/;"	f
+s:wrap	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:wrap(name, opts, bang)$/;"	f
+s:yank_to_register	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:yank_to_register(data)$/;"	f
+usage	/home/vagrant/.config/nvim/plugged/fzf.vim/bin/preview.rb	/^def usage$/;"	f
+wrapped.newsink	/home/vagrant/.config/nvim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! wrapped.newsink(lines)$/;"	f

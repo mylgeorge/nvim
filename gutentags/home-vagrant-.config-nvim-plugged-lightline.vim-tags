@@ -1,0 +1,1071 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/8e09804/
+Custom	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  function! Custom()$/;"	f
+Custom	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  function! Custom(n)$/;"	f
+Custom1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  function! Custom1()$/;"	f
+Custom2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  function! Custom2()$/;"	f
+Custom3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  function! Custom3()$/;"	f
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^  let g:lightline = { 'subseparator': { 'left': '>', 'right': '<' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = { 'component_expand': { 'custom': 'Custom' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = { 'component_expand': { 'custom': 'Custom' }, 'component_type': { 'custom': /;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = { 'component_expand': { 'custom': 'NotFound' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = { 'component_expand': { 'custom': 'NotFound' }, 'component_type': { 'custom'/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = { 'component_expand': { 'custom': 'g:lightline.Custom' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^  let g:lightline = { 'component_type': { 'error': 'error', 'warning': 'warning' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^  let g:lightline = {$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^  let g:lightline = { 'component_type': { 'error': 'error', 'warning': 'warning' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^  let g:lightline = {$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^  let g:lightline = { 'mode_map': { 'n': 'N' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'custom' ] }, 'tab_component': { 'custom': 'custom' }/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'custom' ] }, 'tab_component_function': { 'custom': '/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'custom', 'filename' ], 'inactive': [ 'custom', 'cust/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'tabnum', 'custom' ], 'inactive': [ 'tabnum', 'custom/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'tabnum', 'custom', 'filename' ], 'inactive': [ 'tabn/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = { 'tab': { 'active': [ 'tabnum', 'filename' ], 'inactive': [ 'filename' ] } /;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component': { 'custom1': 'custom1', 'custom2': 'custom2', 'custom3': 'cus/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_expand': { 'custom1': 'Custom1' }, 'component_function': { 'cus/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_expand': { 'custom1': 'Custom1', 'custom2': 'Custom2' }, 'compo/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_expand': { 'custom1': 'Custom1', 'custom2': 'Custom2', 'custom3/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_function': { 'custom1': 'Custom1' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_function': { 'custom1': 'Custom1', 'custom2': 'Custom2' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_function': { 'custom1': 'Custom1', 'custom2': 'Custom2' }, 'com/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_function': { 'custom1': 'Custom1', 'custom2': 'Custom2', 'custo/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^  let g:lightline = { 'component_function': { 'custom2': 'Custom2' } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^  let g:lightline = { 'enable': { 'tabline': 0 } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^  let g:lightline = { 'enable': { 'tabline': 1 } }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^  let g:lightline = {}$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^  let g:lightline = { 'winwidth': 180 }$/;"	v
+g:lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^  let g:lightline = {}$/;"	v
+g:lightline#colorscheme#16color#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let g:lightline#colorscheme#16color#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#Dracula#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let g:lightline#colorscheme#Dracula#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#OldHope#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let g:lightline#colorscheme#OldHope#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#PaperColor#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor.vim	/^  let g:lightline#colorscheme#PaperColor#palette = g:lightline#colorscheme#PaperColor_dark#palet/;"	v
+g:lightline#colorscheme#PaperColor#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor.vim	/^  let g:lightline#colorscheme#PaperColor#palette = g:lightline#colorscheme#PaperColor_light#pale/;"	v
+g:lightline#colorscheme#PaperColor_dark#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let g:lightline#colorscheme#PaperColor_dark#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#PaperColor_light#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let g:lightline#colorscheme#PaperColor_light#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#Tomorrow#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let g:lightline#colorscheme#Tomorrow#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#Tomorrow_Night#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let g:lightline#colorscheme#Tomorrow_Night#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#Tomorrow_Night_Blue#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let g:lightline#colorscheme#Tomorrow_Night_Blue#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#Tomorrow_Night_Bright#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let g:lightline#colorscheme#Tomorrow_Night_Bright#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#Tomorrow_Night_Eighties#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let g:lightline#colorscheme#Tomorrow_Night_Eighties#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#darcula#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let g:lightline#colorscheme#darcula#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#default#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim	/^let g:lightline#colorscheme#default#palette = g:lightline#colorscheme#powerline#palette$/;"	v
+g:lightline#colorscheme#deus#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let g:lightline#colorscheme#deus#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#jellybeans#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let g:lightline#colorscheme#jellybeans#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#landscape#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let g:lightline#colorscheme#landscape#palette = s:p$/;"	v
+g:lightline#colorscheme#materia#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let g:lightline#colorscheme#materia#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#material#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let g:lightline#colorscheme#material#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#molokai#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let g:lightline#colorscheme#molokai#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#nord#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let g:lightline#colorscheme#nord#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#one#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let g:lightline#colorscheme#one#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#powerline#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let g:lightline#colorscheme#powerline#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#seoul256#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let g:lightline#colorscheme#seoul256#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#solarized#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let g:lightline#colorscheme#solarized#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:lightline#colorscheme#wombat#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let g:lightline#colorscheme#wombat#palette = lightline#colorscheme#flatten(s:p)$/;"	v
+g:loaded_lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/plugin/lightline.vim	/^let g:loaded_lightline = 1$/;"	v
+lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  augroup lightline$/;"	a
+lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  augroup lightline-disable$/;"	a
+lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/plugin/lightline.vim	/^augroup lightline$/;"	a
+lightline#colorscheme	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#colorscheme() abort$/;"	f
+lightline#colorscheme#background	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^  function! lightline#colorscheme#background() abort$/;"	f
+lightline#colorscheme#fill	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! lightline#colorscheme#fill(p) abort$/;"	f
+lightline#colorscheme#flatten	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! lightline#colorscheme#flatten(p) abort$/;"	f
+lightline#colortable#gui2cui	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colortable.vim	/^function! lightline#colortable#gui2cui(rgb, fallback) abort$/;"	f
+lightline#colortable#name_to_rgb	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colortable.vim	/^function! lightline#colortable#name_to_rgb(name) abort$/;"	f
+lightline#concatenate	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#concatenate(xs, right) abort$/;"	f
+lightline#disable	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#disable() abort$/;"	f
+lightline#enable	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#enable() abort$/;"	f
+lightline#error	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#error(msg) abort$/;"	f
+lightline#highlight	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#highlight(...) abort$/;"	f
+lightline#init	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#init() abort$/;"	f
+lightline#link	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#link(...) abort$/;"	f
+lightline#mode	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#mode() abort$/;"	f
+lightline#onetab	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#onetab(n, active) abort$/;"	f
+lightline#palette	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#palette() abort$/;"	f
+lightline#statusline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#statusline(inactive) abort$/;"	f
+lightline#tab#filename	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim	/^function! lightline#tab#filename(n) abort$/;"	f
+lightline#tab#modified	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim	/^function! lightline#tab#modified(n) abort$/;"	f
+lightline#tab#readonly	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim	/^function! lightline#tab#readonly(n) abort$/;"	f
+lightline#tab#tabnum	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim	/^function! lightline#tab#tabnum(n) abort$/;"	f
+lightline#tabline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#tabline() abort$/;"	f
+lightline#tabs	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#tabs() abort$/;"	f
+lightline#toggle	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#toggle() abort$/;"	f
+lightline#update	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#update() abort$/;"	f
+lightline#update_disable	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#update_disable() abort$/;"	f
+lightline#update_once	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! lightline#update_once() abort$/;"	f
+s:_	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:_ = 1$/;"	v
+s:_lightline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:_lightline = {$/;"	v
+s:aqua	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:aqua = '#3e999f'$/;"	v
+s:aqua	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:aqua = '#3e999f'$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/error.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:background	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:background = '#444444'$/;"	v
+s:background	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:background = '#F5F5F5'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base0 = [ '#0000ff', 12 ]$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base0 = '#666666'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base0 = '#909090'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base0 = '#ffffff'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base0 = '#949494'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base0 = '#777777'$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base0 = [ '#808070', 244 ]$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base0 = [ '#808070', 244 ]$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base0 = [ '#839496', s:cuicolors.base0[s:cuiindex] ]$/;"	v
+s:base0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base0 = [ '#808080', 244 ]$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base00 = [ '#ffff00', 11  ]$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base00 = '#808080'$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base00 = '#666666'$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base00 = '#6060df'$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base00 = '#767676'$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base00 = '#666666'$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base00 = [ '#666656', 242  ]$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base00 = [ '#666656', 242  ]$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base00 = [ '#657b83', s:cuicolors.base00[s:cuiindex] ]$/;"	v
+s:base00	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base00 = [ '#666666', 242  ]$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base01 = [ '#00ff00', 10 ]$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base01 = '#b4b4b4'$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base01 = '#555555'$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base01 = '#6060af'$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base01 = '#606060'$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base01 = '#555555'$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base01 = [ '#4e4e43', 239 ]$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base01 = [ '#4e4e43', 239 ]$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base01 = [ '#586e75', s:cuicolors.base01[s:cuiindex] ]$/;"	v
+s:base01	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base01 = [ '#585858', 240 ]$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base02 = [ '#000000', 0 ]$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base02 = '#c8c8c8'$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base02 = '#434343'$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base02 = '#606087'$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base02 = '#4e4e4e'$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base02 = '#444444'$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base02 = [ '#30302c ', 236 ]$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base02 = [ '#30302c ', 236 ]$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base02 = [ '#073642', s:cuicolors.base02[s:cuiindex] ]$/;"	v
+s:base02	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base02 = [ '#444444 ', 238 ]$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base023 = '#dfdfdf'$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base023 = '#303030'$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base023 = '#202087'$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base023 = '#262626'$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base023 = '#333333'$/;"	v
+s:base023	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base023 = [ '#353535 ', 236 ]$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base03 = [ '#808080', 8 ]$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base03 = '#fafafa'$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base03 = '#1d1f21'$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base03 = '#002451'$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base03 = '#12124c'$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base03 = '#2d2d2d'$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base03 = [ '#151513', 233 ]$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base03 = [ '#151513', 233 ]$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base03 = [ '#002b36', s:cuicolors.base03[s:cuiindex] ]$/;"	v
+s:base03	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base03 = [ '#242424', 235 ]$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base1 = [ '#00ffff', 14 ]$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base1 = '#555555'$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base1 = '#a0a0a0'$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base1 = '#ffffff'$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base1 = '#b2b2b2'$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base1 = '#999999'$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base1 = [ '#949484', 246 ]$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base1 = [ '#949484', 246 ]$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base1 = [ '#93a1a1', s:cuicolors.base1[s:cuiindex] ]$/;"	v
+s:base1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base1 = [ '#969696', 247 ]$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base2 = [ '#c0c0c0', 7 ]$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base2 = '#4f4f4f'$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base2 = '#bababa'$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base2 = '#ffffff'$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base2 = '#c6c6c6'$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base2 = '#aaaaaa'$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base2 = [ '#a8a897', 248 ]$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base2 = [ '#a8a897', 248 ]$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base2 = [ '#eee8d5', s:cuicolors.base2[s:cuiindex] ]$/;"	v
+s:base2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base2 = [ '#a8a8a8', 248 ]$/;"	v
+s:base23	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base23 = '#ffffff'$/;"	v
+s:base23	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base23 = '#d0d0d0'$/;"	v
+s:base23	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base23 = '#bbbbbb'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:base3 = [ '#ffffff', 15 ]$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:base3 = '#4d4d4c'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:base3 = '#c5c8c6'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:base3 = '#ffffff'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:base3 = '#eaeaea'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:base3 = '#cccccc'$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:base3 = [ '#e8e8d3', 253 ]$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:base3 = [ '#e8e8d3', 253 ]$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:base3 = [ '#fdf6e3', s:cuicolors.base3[s:cuiindex] ]$/;"	v
+s:base3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:base3 = [ '#d0d0d0', 252 ]$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:bg     = '#263238'$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:bg     = '#ffffff'$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:bg     = '#263238'$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:bg     = '#ffffff'$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:bg     = [ '#282c34', 235 ]$/;"	v
+s:bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:bg     = [ '#fafafa', 255 ]$/;"	v
+s:black	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! s:black(x) abort$/;"	f
+s:black	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:black = [ '#282a36', 235 ]$/;"	v
+s:black	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:black = [ '#2b2b2b', 235 ]$/;"	v
+s:black	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:black = [ '#232526', 233 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:blue = [ '#000080', 4 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:blue = [ '#4fb4d8' , 39 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:blue = '#00afaf'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:blue = '#4271ae'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:blue = '#4271ae'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:blue = '#81a2be'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:blue = '#bbdaff'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:blue = '#7aa6da'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:blue = '#99cccc'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:blue = [ '#6897bb' , 67 ] $/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:blue = [ '#8197bf', 103 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:blue   = '#89ddff'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:blue   = '#82aaff'$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:blue   = [ '#61afef', 75 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:blue = [ '#87afaf', 109 ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:blue = [ '#268bd2', s:cuicolors.blue[s:cuiindex] ]$/;"	v
+s:blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:blue = [ '#8ac6f2', 117 ]$/;"	v
+s:convert	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:convert(name, index) abort$/;"	f
+s:convert	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! s:convert(rgb) abort$/;"	f
+s:cuicolor	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^let s:cuicolor = {$/;"	v
+s:cuicolors	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:cuicolors = {$/;"	v
+s:cuiindex	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^  let s:cuiindex = 0$/;"	v
+s:cuiindex	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^  let s:cuiindex = 1$/;"	v
+s:cuiindex	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^  let s:cuiindex = 2$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:cyan = [ '#008080', 6 ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:cyan = [ '#8be9fd', 117 ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:cyan = '#3e999f'$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:cyan = '#8abeb7'$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:cyan = '#99ffff'$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:cyan = '#70c0b1'$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:cyan = '#009999'$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:cyan = [ '#8fbfdc', 110 ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:cyan = [ '#66d9ef', 81 ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:cyan = [ '#87d7d7', 23 ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:cyan = [ '#2aa198', s:cuicolors.cyan[s:cuiindex] ]$/;"	v
+s:cyan	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:cyan = s:blue$/;"	v
+s:darkGray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:darkGray = [ '#45474f' , 238 ]$/;"	v
+s:darkblue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:darkblue = [ '#6272a4', 61 ]$/;"	v
+s:error	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:error = '#5f0000'$/;"	v
+s:error	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:error = '#ffafdf'$/;"	v
+s:evaluate_expand	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:evaluate_expand(component) abort$/;"	f
+s:expand	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:expand(components) abort$/;"	f
+s:expand	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:expand(...)$/;"	f
+s:fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:fg     = '#d5dbe5'$/;"	v
+s:fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:fg     = '#eeffff'$/;"	v
+s:fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:fg     = [ '#abb2bf', 145 ]$/;"	v
+s:flatten_twice	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:flatten_twice(xss) abort$/;"	f
+s:foreground	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:foreground = '#d0d0d0'$/;"	v
+s:foreground	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:foreground = '#4d4d4c'$/;"	v
+s:gray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:gray = [ '#44475a', 236 ]$/;"	v
+s:gray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:gray = [ '#686b78' , 242 ]$/;"	v
+s:gray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:gray = [ '#323232', 236 ]$/;"	v
+s:gray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:gray = [ '#808080', 244 ]$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray1  = '#2c393f'$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray1  = '#37474f'$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray1  = '#2e3c43'$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray1  = '#314549'$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray1  = [ '#494b53', 238 ]$/;"	v
+s:gray1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray1  = [ '#5c6370', 241 ]$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray2  = '#2c393f'$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray2  = '#d5dbe5'$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray2  = '#2E3C43'$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray2  = '#eeffff'$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray2  = [ '#2c323d', 235 ]$/;"	v
+s:gray2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray2  = [ '#f0f0f0', 255 ]$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray3  = '#37474f'$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:gray3  = '#707880'$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray3  = '#314549'$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:gray3  = '#546e7a'$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray3  = [ '#3e4452', 240 ]$/;"	v
+s:gray3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:gray3  = [ '#d0d0d0', 250 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:green = [ '#008000', 2 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:green = [ '#50fa7b', 84 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:green = [ '#78bd65' , 41 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:green = '#008700'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:green = '#008700'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:green = '#718c00'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:green = '#b5bd68'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:green = '#d1f1a9'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:green = '#b9ca4a'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:green = '#99cc99'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:green = [ '#629755', 71 ] $/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:green = [ '#99ad6a', 107 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:green  = '#8bd649'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:green  = '#c3e88d'$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:green = [ '#a6e22e', 118 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:green  = [ '#98c379', 35 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:green  = [ '#98c379', 76 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:green = [ '#87af87', 108 ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:green = [ '#859900', s:cuicolors.green[s:cuiindex] ]$/;"	v
+s:green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:green = [ '#95e454', 119 ]$/;"	v
+s:guicolor	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^let s:guicolor = {$/;"	v
+s:hi	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:hi(name)$/;"	f
+s:hi	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:hi(name)$/;"	f
+s:lightGray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:lightGray = [ '#848794' , 245 ]$/;"	v
+s:line	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:line(tabline, inactive) abort$/;"	f
+s:load	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colortable.vim	/^function! s:load() abort$/;"	f
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:magenta = [ '#800080', 5 ]$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:magenta = '#8959a8'$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:magenta = '#b294bb'$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:magenta = '#ebbbff'$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:magenta = '#c397d8'$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:magenta = '#cc99cc'$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:magenta = [ '#f0a0c0', 217 ]$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:magenta = [ '#df5f87', 168 ]$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:magenta = [ '#d33682', s:cuicolors.magenta[s:cuiindex] ]$/;"	v
+s:magenta	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:magenta = [ '#f2c68a', 216 ]$/;"	v
+s:map	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  function! s:map(xs, f) abort$/;"	f
+s:map	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  let s:map = function('map')$/;"	v
+s:message	/home/vagrant/.config/nvim/plugged/lightline.vim/test/error.vim	/^function! s:message() abort$/;"	f
+s:mode	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:mode = ''$/;"	v
+s:navy	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:navy = '#df875f'$/;"	v
+s:navy	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:navy = '#005f87'$/;"	v
+s:nord0	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord0 = ["#2E3440", "NONE"]$/;"	v
+s:nord1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord1 = ["#3B4252", 0]$/;"	v
+s:nord10	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord10 = ["#5E81AC", 12]$/;"	v
+s:nord11	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord11 = ["#BF616A", 1]$/;"	v
+s:nord12	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord12 = ["#D08770", 11]$/;"	v
+s:nord13	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord13 = ["#EBCB8B", 3]$/;"	v
+s:nord14	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord14 = ["#A3BE8C", 2]$/;"	v
+s:nord15	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord15 = ["#B48EAD", 5]$/;"	v
+s:nord2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord2 = ["#434C5E", "NONE"]$/;"	v
+s:nord3	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord3 = ["#4C566A", 8]$/;"	v
+s:nord4	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord4 = ["#D8DEE9", "NONE"]$/;"	v
+s:nord5	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord5 = ["#E5E9F0", 7]$/;"	v
+s:nord6	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord6 = ["#ECEFF4", 15]$/;"	v
+s:nord7	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord7 = ["#8FBCBB", 14]$/;"	v
+s:nord8	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord8 = ["#88C0D0", 6]$/;"	v
+s:nord9	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:nord9 = ["#81A1C1", 4]$/;"	v
+s:normalize	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:normalize(result) abort$/;"	f
+s:nr	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! s:nr(x) abort$/;"	f
+s:olive	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:olive = '#dfaf5f'$/;"	v
+s:olive	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:olive = '#718c00'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:orange = [ '#ff0000', 9 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:orange = [ '#ffb86c', 215 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:orange = [ '#ef7c2a' , 202 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:orange = '#d75f00'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:orange = '#d75f00'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:orange = '#f5871f'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:orange = '#de935f'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:orange = '#ffc58f'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:orange = '#e78c45'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:orange = '#f99157'$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:orange = [ '#fad07a', 222 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:orange = [ '#ef5939', 166 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:orange = [ '#d7875f', 216 ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:orange = [ '#cb4b16', s:cuicolors.orange[s:cuiindex] ]$/;"	v
+s:orange	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:orange = [ '#e5786d', 173 ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.inactive.right = [ [ s:base02, s:base01 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.insert.left = [ [ s:base3, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.normal.error = [ [ s:base2, s:red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.normal.left = [ [ s:base3, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.normal.warning = [ [ s:base02, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.replace.left = [ [ s:base3, s:red ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:p.visual.left = [ [ s:base3, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.inactive.left =  [ [ s:cyan, s:black ], [ s:white, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.inactive.middle = [ [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.inactive.right = [ [ s:black, s:gray ], [ s:white, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.insert.left = [ [ s:black, s:green ], [ s:cyan, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.normal.error = [ [ s:red, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.normal.left = [ [ s:black, s:purple ], [ s:cyan, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.normal.middle = [ [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.normal.right = [ [ s:black, s:purple ], [ s:white, s:darkblue ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.normal.warning = [ [ s:yellow, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.replace.left = [ [ s:black, s:red ], [ s:cyan, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.tabline.left = [ [ s:darkblue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.tabline.middle = [ [ s:darkblue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.tabline.tabsel = [ [ s:cyan, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:p.visual.left = [ [ s:black, s:orange ], [ s:cyan, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.inactive.left = [ [ s:lightGray, s:darkGray ], [ s:white, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.inactive.middle = [ [ s:white, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.inactive.right = [ [ s:darkGray, s:gray ], [ s:darkGray, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.insert.left = [ [ s:white, s:green ], [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.insert.right = copy(s:p.insert.left)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.normal.error = [ [ s:red, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.normal.left = [ [ s:white, s:blue ], [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.normal.middle = [ [ s:white, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.normal.right = copy(s:p.normal.left)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.normal.warning = [ [ s:orange, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.replace.left = [ [ s:white, s:red ], [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.replace.right = copy(s:p.replace.left)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.tabline.left = [ [ s:lightGray, s:darkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.tabline.middle = [ [ s:yellow, s:veryDarkGray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.tabline.right = copy(s:p.tabline.left)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.tabline.tabsel = [ [ s:darkGray, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.visual.left = [ [ s:white, s:orange ], [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:p.visual.right = copy(s:p.visual.left)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.inactive.left = [ [ s:foreground, s:background ], [ s:foreground, s:background ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.inactive.middle = [ [ s:foreground, s:background ], ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.inactive.right = [ [ s:foreground, s:background ], [ s:foreground, s:background ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.insert.left = [ [ s:background, s:blue], [ s:statusline_active_fg, s:status ], [ s:statu/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.normal.error = [ [ s:background, s:error ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.normal.left = [ [ s:foreground, s:background ], [ s:statusline_active_fg, s:status ], [ /;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.normal.middle = [ [ s:statusline_active_fg, s:statusline_active_bg ]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.normal.right = [ [ s:foreground, s:background ], [ s:statusline_active_fg, s:status ], [/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.replace.left = [ [ s:background, s:pink ], [s:statusline_active_fg, s:status ], [ s:stat/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.tabline.left = [ [s:tabline_inactive_fg, s:tabline_inactive_bg ]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.tabline.middle = [ [s:tabline_bg, s:tabline_bg]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.tabline.tabsel = [ [s:tabline_active_fg, s:tabline_active_bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:p.visual.left = [ [ s:visual_fg, s:visual_bg ], [s:statusline_active_fg, s:status ], [ s:s/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.inactive.left = [ [ s:foreground, s:background ], [ s:foreground, s:background ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.inactive.middle = [ [ s:foreground, s:background ], ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.inactive.right = [ [ s:foreground, s:background ], [ s:foreground, s:background ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.insert.left = [ [ s:blue, s:background ], [ s:statusline_active_fg, s:status ], [ s:stat/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.normal.error = [ [ s:background, s:error ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.normal.left = [ [ s:foreground, s:background ], [ s:statusline_active_fg, s:status ], [ /;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.normal.middle = [ [ s:statusline_active_fg, s:statusline_active_bg ]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.normal.right = [ [ s:foreground, s:background ], [ s:statusline_active_fg, s:status ], [/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.normal.warning = [ [ s:background, s:olive ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.replace.left = [ [ s:background, s:pink ], [s:statusline_active_fg, s:status ], [ s:stat/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.tabline.left = [ [s:tabline_inactive_fg, s:tabline_inactive_bg ]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.tabline.middle = [ [s:tabline_bg, s:tabline_bg]]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.tabline.tabsel = [ [s:tabline_active_fg, s:tabline_active_bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:p.visual.left = [ [ s:background, s:orange ], [s:statusline_active_fg, s:status ], [ s:sta/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.normal.error = [ [ s:red, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.normal.warning = [ [ s:yellow, s:base0 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.replace.left = [ [ s:base02, s:orange ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:p.visual.left = [ [ s:base02, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.normal.error = [ [ s:red, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.replace.left = [ [ s:base02, s:orange ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base0 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:p.visual.left = [ [ s:base02, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.inactive.left =  [ [ s:base02, s:base0 ], [ s:base00, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.inactive.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.insert.left = [ [ s:base023, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.normal.error = [ [ s:base023, s:red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.normal.left = [ [ s:base023, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.normal.warning = [ [ s:base023, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.replace.left = [ [ s:base023, s:orange ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:p.visual.left = [ [ s:base023, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.inactive.left =  [ [ s:base02, s:base0 ], [ s:base00, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.inactive.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.insert.left = [ [ s:base023, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.normal.error = [ [ s:red, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.normal.left = [ [ s:base023, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.replace.left = [ [ s:base023, s:orange ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:p.visual.left = [ [ s:base023, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.inactive.left =  [ [ s:base02, s:base0 ], [ s:base00, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.inactive.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.insert.left = [ [ s:base023, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.normal.error = [ [ s:base023, s:red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.normal.left = [ [ s:base023, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.normal.warning = [ [ s:base023, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.replace.left = [ [ s:base023, s:orange ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.tabline.left = [ [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.tabline.tabsel = [ [ s:base2, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:p.visual.left = [ [ s:base023, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.inactive.left =  [ [ s:black, s:blue ], [ s:blue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.inactive.middle = [ [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.inactive.right = [ [ s:black, s:blue ], [ s:blue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.insert.left = [ [ s:black, s:green ], [ s:green, s:gray ] ] $/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.insert.right = [ [ s:black, s:green ], [ s:green, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.normal.error = [ [ s:red, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.normal.left = [ [ s:black, s:purple ], [ s:purple, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.normal.middle = [ [ s:white, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.normal.right = [ [ s:black, s:purple ], [ s:purple, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.normal.warning = [ [ s:yellow, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.replace.left = [ [ s:black, s:red ], [ s:red, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.replace.right = [ [ s:black, s:red ], [ s:red, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.tabline.left = [ [ s:blue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.tabline.middle = [ [ s:blue, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.tabline.right = [ [ s:black, s:blue ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.tabline.tabsel = [ [ s:black, s:blue ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.visual.left = [ [ s:black, s:yellow ], [ s:yellow, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:p.visual.right = [ [ s:black, s:yellow ], [ s:yellow, s:gray ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.inactive.left = s:p.inactive.right[1:]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.inactive.right = [ [ '#292c33', '#61afef', s:term_black, s:term_blue], [ '#abb2bf', '#3e/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.insert.left = [ [ '#292c33', '#61afef', s:term_black, s:term_blue, 'bold' ], [ '#61afef'/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.insert.middle = s:p.normal.middle$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.insert.right = [ [ '#292c33', '#61afef', s:term_black, s:term_blue ], [ '#ABB2BF', '#3E4/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.normal.error = [ [ '#292c33', '#e06c75', s:term_black, s:term_red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.normal.left = [ [ '#292c33', '#98c379', s:term_black, s:term_green, 'bold' ], [ '#98c379/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.normal.middle = [ [ '#abb2bf', '#292c33', s:term_white, s:term_black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.normal.right = [ [ '#292c33', '#98c379', s:term_black, s:term_green ], [ '#abb2bf', '#3e/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.normal.warning = [ [ '#292c33', '#e5c07b', s:term_black, s:term_yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.replace.left = [ [ '#292c33', '#e06c75', s:term_black, s:term_red, 'bold' ], [ '#e06c75'/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.replace.middle = s:p.normal.middle$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.replace.right = [ [ '#292c33', '#e06c75', s:term_black, s:term_red, 'bold' ], s:p.normal/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.tabline.left = [ s:p.normal.left[1] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.tabline.middle = s:p.normal.middle$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.tabline.right = [ s:p.normal.left[1] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.tabline.tabsel = [ s:p.normal.left[0] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.visual.left = [ [ '#292c33', '#c678dd', s:term_black, s:term_purple, 'bold' ], [ '#c678d/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:p.visual.right = [ [ '#292c33', '#c678dd', s:term_black, s:term_purple, 'bold' ], s:p.norm/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.inactive.middle = [ [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.normal.error = [ [ s:red, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.normal.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.normal.warning = [ [ s:yellow, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.replace.left = [ [ s:base02, s:red ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.tabline.left = [ [ s:base3, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.tabline.tabsel = [ [ s:base3, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:p.visual.left = [ [ s:base02, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.inactive.left = s:p.inactive.right[1:]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.inactive.middle = [ [ '#303030', '#121212', 236, 233 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.inactive.right = [ [ '#121212', '#606060', 233, 241 ], [ '#121212', '#3a3a3a', 233, 237 /;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.insert.left =  [ ['#005f00', '#ffffff', 22, 231, 'bold' ], [ '#ffffff', '#005f00', 231, /;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.normal.error = [ [ '#d0d0d0', '#ff0000', 252, 196 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.normal.left = [ ['#0000ff', '#ffffff', 21, 231, 'bold' ], [ '#ffffff', '#0000ff', 231, 2/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.normal.middle = [ [ '#8a8a8a', '#303030', 245, 236 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.normal.right = [ [ '#303030', '#d0d0d0', 236, 252 ], [ '#303030', '#8a8a8a', 236, 245 ],/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.normal.warning = [ [ '#262626', '#ffff00', 235, 226 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.replace.left = [ [ '#af0000', '#ffffff', 124, 231, 'bold' ], [ '#ffffff', '#af0000', 231/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.tabline.left = [ [ '#d0d0d0', '#666666', 252, 242 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.tabline.middle = [ [ '#8a8a8a', '#3a3a3a', 245, 237 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.tabline.right = [ [ '#d0d0d0', '#666666', 252, 242 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.tabline.tabsel = [ [ '#dadada', '#121212', 253, 233 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/landscape.vim	/^let s:p.visual.left = [ [ '#5f00ff', '#ffffff', 57, 231, 'bold' ], [ '#ffffff', '#5f00ff', 231, /;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.left   = [ [ s:bg,  s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.right  = [ [ s:bg, s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.inactive.right  = [ [ s:gray1, s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.insert.left     = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.insert.left     = [ [ s:bg, s:blue, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.normal.left     = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.normal.left     = [ [ s:bg, s:green, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.normal.middle   = [ [ s:fg, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.normal.middle   = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.insert.right   = [ [ s:bg, s:blue, 'bold' ], [ s:bg, s:blue, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.normal.error   = [ [ s:red2,   s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.normal.right   = [ [ s:bg, s:green, 'bold' ], [ s:bg, s:green, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.normal.warning = [ [ s:yellow, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:bg, s:red1, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.tabline.left   = [ [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.tabline.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.tabline.right  = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.tabline.tabsel = [ [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.left   = [ [ s:bg,  s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.right  = [ [ s:bg, s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.inactive.right  = [ [ s:gray1, s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.insert.left     = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.insert.left     = [ [ s:bg, s:green, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.normal.left     = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.normal.left     = [ [ s:bg, s:blue, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.normal.middle   = [ [ s:fg, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.normal.middle   = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.insert.right   = [ [ s:bg, s:green, 'bold' ], [ s:bg, s:green, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.normal.error   = [ [ s:red2,   s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.normal.right   = [ [ s:bg, s:blue, 'bold' ], [ s:bg, s:blue, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.normal.warning = [ [ s:yellow, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:bg, s:red1, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.tabline.left   = [ [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.tabline.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.tabline.right  = [ [ s:bg, s:red1, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.tabline.tabsel = [ [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.inactive.left =  [ [ s:pink, s:black ], [ s:white, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.inactive.middle = [ [ s:gray, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.inactive.right = [ [ s:white, s:pink ], [ s:pink, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.insert.left = [ [ s:black, s:green ], [ s:green, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.normal.error = [ [ s:pink, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.normal.left = [ [ s:black, s:cyan ], [ s:orange, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.normal.middle = [ [ s:orange, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.normal.right = [ [ s:pink, s:black ], [ s:black, s:pink ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.normal.warning = [ [ s:yellow, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.replace.left = [ [ s:black, s:red ], [ s:red, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.tabline.left = [ [ s:pink, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.tabline.middle = [ [ s:pink, s:black] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.tabline.tabsel = [ [ s:black, s:pink ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:p.visual.left = [ [ s:black, s:yellow ], [ s:yellow, s:black ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.inactive.left =  [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.inactive.middle = [ [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.inactive.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.insert.left = [ [ s:nord1, s:nord6 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.normal.error = [ [ s:nord1, s:nord11 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.normal.left = [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.normal.middle = [ [ s:nord5, s:nord3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.normal.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.normal.warning = [ [ s:nord1, s:nord13 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.replace.left = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.tabline.left = [ [ s:nord5, s:nord3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.tabline.middle = [ [ s:nord5, s:nord3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.tabline.right = [ [ s:nord5, s:nord3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.tabline.tabsel = [ [ s:nord1, s:nord8 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/nord.vim	/^let s:p.visual.left = [ [ s:nord1, s:nord7 ], [ s:nord5, s:nord1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.left   = [ [ s:bg,  s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.right  = [ [ s:bg, s:gray3 ], [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.inactive.right  = [ [ s:gray1, s:bg ], [ s:gray1, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.insert.left     = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.insert.left     = [ [ s:bg, s:blue, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.normal.left     = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.normal.left     = [ [ s:bg, s:green, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.normal.middle   = [ [ s:fg, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.normal.middle   = [ [ s:gray1, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:gray1, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.insert.right   = [ [ s:bg, s:blue, 'bold' ], [ s:bg, s:blue, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.normal.error   = [ [ s:red2,   s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.normal.right   = [ [ s:bg, s:green, 'bold' ], [ s:bg, s:green, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.normal.warning = [ [ s:yellow, s:bg ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:bg, s:red1, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.tabline.left   = [ [ s:bg, s:gray3 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.tabline.middle = [ [ s:gray3, s:gray2 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.tabline.right  = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.tabline.tabsel = [ [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:bg, s:purple, 'bold' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.inactive.left = s:p.inactive.right[1:]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.inactive.right = [ ['gray1', 'gray5'], ['gray4', 'gray1'], ['gray4', 'gray0'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.insert.left = [ ['darkestcyan', 'white', 'bold'], ['white', 'darkblue'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.insert.middle = [ [ 'mediumcyan', 'darkestblue' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.insert.right = [ [ 'darkestcyan', 'mediumcyan' ], [ 'mediumcyan', 'darkblue' ], [ 'mediu/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.normal.error = [ [ 'gray9', 'brightestred' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.normal.left = [ ['darkestgreen', 'brightgreen', 'bold'], ['white', 'gray4'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.normal.middle = [ [ 'gray7', 'gray2' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.normal.right = [ ['gray5', 'gray10'], ['gray9', 'gray4'], ['gray8', 'gray2'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.normal.warning = [ [ 'gray1', 'yellow' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.replace.left = [ ['white', 'brightred', 'bold'], ['white', 'gray4'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.replace.middle = s:p.normal.middle$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.replace.right = s:p.normal.right$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.tabline.left = [ [ 'gray9', 'gray4' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.tabline.middle = [ [ 'gray2', 'gray8' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.tabline.right = [ [ 'gray9', 'gray3' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.tabline.tabsel = [ [ 'gray9', 'gray1' ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim	/^let s:p.visual.left = [ ['darkred', 'brightorange', 'bold'], ['white', 'gray4'] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.inactive.middle = [ [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.normal.error = [ [ s:red, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.normal.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.normal.right = [ [ s:base02, s:base1 ], [ s:base2, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.normal.warning = [ [ s:yellow, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.replace.left = [ [ s:base02, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.tabline.left = [ [ s:base3, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.tabline.tabsel = [ [ s:base3, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:p.visual.left = [ [ s:base02, s:peach ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.inactive.middle = [ [ s:base01, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.inactive.right = [ [ s:base03, s:base00 ], [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.insert.left = [ [ s:base03, s:green ], [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.normal.error = [ [ s:base03, s:red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.normal.left = [ [ s:base03, s:blue ], [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.normal.middle = [ [ s:base1, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.normal.right = [ [ s:base03, s:base1 ], [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.normal.warning = [ [ s:base03, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.replace.left = [ [ s:base03, s:red ], [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.tabline.left = [ [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.tabline.middle = [ [ s:base0, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.tabline.right = copy(s:p.normal.right)$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.tabline.tabsel = [ [ s:base03, s:base1 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:p.visual.left = [ [ s:base03, s:magenta ], [ s:base03, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.inactive.left =  [ [ s:base1, s:base02 ], [ s:base00, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.inactive.middle = [ [ s:base1, s:base023 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.inactive.right = [ [ s:base023, s:base01 ], [ s:base00, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.normal.error = [ [ s:base03, s:red ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.normal.middle = [ [ s:base2, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.normal.warning = [ [ s:base023, s:yellow ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.replace.left = [ [ s:base023, s:red ], [ s:base3, s:base01 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.tabline.left = [ [ s:base3, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.tabline.middle = [ [ s:base2, s:base02 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.tabline.right = [ [ s:base2, s:base00 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.tabline.tabsel = [ [ s:base3, s:base03 ] ]$/;"	v
+s:p	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:p.visual.left = [ [ s:base02, s:magenta ], [ s:base3, s:base01 ] ]$/;"	v
+s:pattern	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:pattern(xs, ...) abort$/;"	f
+s:peach	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:peach = [ '#d7afaf', 181 ]$/;"	v
+s:pink	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:pink = '#afdf00'$/;"	v
+s:pink	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:pink = '#d7005f'$/;"	v
+s:pink	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:pink = [ '#f92672', 161 ]$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:purple = [ '#bd93f9', 141 ]$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:purple = '#8959a8'$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:purple = '#8959a8'$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:purple = [ '#9876aa', 104 ]$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:purple = '#82aaff'$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:purple = '#c792ea'$/;"	v
+s:purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:purple = [ '#c678dd', 176 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:red = [ '#800000', 1 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:red = [ '#ff79c6', 212 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:red = [ '#f92672' , 161 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:red = '#df0000'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:red = '#df0000'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:red = '#c82829'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:red = '#cc6666'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:red = '#ff9da4'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:red = '#d54e53'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:red = '#f2777a'$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:red = [ '#ff6b68', 204 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:red = [ '#cf6a4c', 167 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:red = [ '#ff0000', 160 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:red = [ '#d68787', 131 ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:red = [ '#dc322f', s:cuicolors.red[s:cuiindex] ]$/;"	v
+s:red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:red = [ '#e5786d', 203 ]$/;"	v
+s:red1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:red1   = '#ec5f67'$/;"	v
+s:red1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:red1   = '#f07178'$/;"	v
+s:red1	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:red1   = [ '#e06c75', 168 ]$/;"	v
+s:red2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:red2   = '#ec5f67'$/;"	v
+s:red2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:red2   = '#ff5370'$/;"	v
+s:red2	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:red2   = [ '#be5046', 168 ]$/;"	v
+s:rgb	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! s:rgb(r, g, b) abort$/;"	f
+s:save_cpo	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colortable.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	/home/vagrant/.config/nvim/plugged/lightline.vim/plugin/lightline.vim	/^let s:save_cpo = &cpo$/;"	v
+s:solarized_termcolors	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:solarized_termcolors = get(g:, 'solarized_termcolors', 256)$/;"	v
+s:status	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:status = '#c6c6c6'$/;"	v
+s:status	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:status = s:aqua$/;"	v
+s:statusline_active_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:statusline_active_bg = '#5f8787'$/;"	v
+s:statusline_active_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:statusline_active_bg = s:navy$/;"	v
+s:statusline_active_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:statusline_active_fg = '#1c1c1c'$/;"	v
+s:statusline_active_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:statusline_active_fg = s:window$/;"	v
+s:statusline_inactive_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:statusline_inactive_bg = '#444444'$/;"	v
+s:statusline_inactive_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:statusline_inactive_bg = '#dadada'$/;"	v
+s:statusline_inactive_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:statusline_inactive_fg = '#c6c6c6'$/;"	v
+s:statusline_inactive_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:statusline_inactive_fg = s:foreground$/;"	v
+s:subseparator	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:subseparator(components, subseparator, expanded) abort$/;"	f
+s:subseparator	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:subseparator(...)$/;"	f
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^let s:suite = themis#suite('concatenate')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/error.vim	/^let s:suite = themis#suite('error')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^let s:suite = themis#suite('expand')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^let s:suite = themis#suite('highlight')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^let s:suite = themis#suite('link')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^let s:suite = themis#suite('mode')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^let s:suite = themis#suite('onetab')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^let s:suite = themis#suite('subseparator')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^let s:suite = themis#suite('tabline')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^let s:suite = themis#suite('tabs')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^let s:suite = themis#suite('toggle')$/;"	v
+s:suite	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^let s:suite = themis#suite('uniq')$/;"	v
+s:suite.active_inactive	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.active_inactive()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.before_each	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^function! s:suite.before_each()$/;"	f
+s:suite.component_raw	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.component_raw()$/;"	f
+s:suite.component_type	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.component_type()$/;"	f
+s:suite.component_type	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.component_type()$/;"	f
+s:suite.custom	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom()$/;"	f
+s:suite.custom_error	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_error()$/;"	f
+s:suite.custom_left_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_left_nil()$/;"	f
+s:suite.custom_mixed	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_mixed()$/;"	f
+s:suite.custom_mixed_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_mixed_2()$/;"	f
+s:suite.custom_number	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_number()$/;"	f
+s:suite.custom_one	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_one()$/;"	f
+s:suite.custom_right_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_right_nil()$/;"	f
+s:suite.custom_string	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_string()$/;"	f
+s:suite.custom_two	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_two()$/;"	f
+s:suite.custom_type	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type()$/;"	f
+s:suite.custom_type_error	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_error()$/;"	f
+s:suite.custom_type_flatten	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_flatten()$/;"	f
+s:suite.custom_type_left_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_left_nil()$/;"	f
+s:suite.custom_type_mixed	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_mixed()$/;"	f
+s:suite.custom_type_mixed_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_mixed_2()$/;"	f
+s:suite.custom_type_notfound	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_notfound()$/;"	f
+s:suite.custom_type_number	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_number()$/;"	f
+s:suite.custom_type_one	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_one()$/;"	f
+s:suite.custom_type_right_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_right_nil()$/;"	f
+s:suite.custom_type_string	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_string()$/;"	f
+s:suite.custom_type_two	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_two()$/;"	f
+s:suite.custom_type_void_string	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_void_string()$/;"	f
+s:suite.custom_type_void_string_array	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_void_string_array()$/;"	f
+s:suite.custom_type_void_string_array_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_void_string_array_2()$/;"	f
+s:suite.custom_type_void_string_array_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_void_string_array_3()$/;"	f
+s:suite.custom_type_void_string_array_4	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_type_void_string_array_4()$/;"	f
+s:suite.custom_void_string	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_void_string()$/;"	f
+s:suite.custom_void_string_array	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_void_string_array()$/;"	f
+s:suite.custom_void_string_array_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_void_string_array_2()$/;"	f
+s:suite.custom_void_string_array_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_void_string_array_3()$/;"	f
+s:suite.custom_void_string_array_4	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.custom_void_string_array_4()$/;"	f
+s:suite.default	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.default()$/;"	f
+s:suite.default	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^function! s:suite.default()$/;"	f
+s:suite.dictionary_function	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.dictionary_function()$/;"	f
+s:suite.disable_enable	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^function! s:suite.disable_enable()$/;"	f
+s:suite.disabled	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.disabled()$/;"	f
+s:suite.duplicated_both_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_both_nil()$/;"	f
+s:suite.duplicated_both_nil_left_most	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_both_nil_left_most()$/;"	f
+s:suite.duplicated_both_nil_right_most	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_both_nil_right_most()$/;"	f
+s:suite.duplicated_left_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_left_nil()$/;"	f
+s:suite.duplicated_right_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_right_nil()$/;"	f
+s:suite.duplicated_type_both_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_type_both_nil()$/;"	f
+s:suite.duplicated_type_both_nil_left_most	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_type_both_nil_left_most()$/;"	f
+s:suite.duplicated_type_both_nil_right_most	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_type_both_nil_right_most()$/;"	f
+s:suite.duplicated_type_left_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_type_left_nil()$/;"	f
+s:suite.duplicated_type_right_nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.duplicated_type_right_nil()$/;"	f
+s:suite.enabled	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.enabled()$/;"	f
+s:suite.error	/home/vagrant/.config/nvim/plugged/lightline.vim/test/error.vim	/^function! s:suite.error()$/;"	f
+s:suite.expand	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.expand()$/;"	f
+s:suite.filename	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.filename()$/;"	f
+s:suite.filename_modified	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.filename_modified()$/;"	f
+s:suite.flatten	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.flatten()$/;"	f
+s:suite.highlight	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.highlight()$/;"	f
+s:suite.insert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.insert()$/;"	f
+s:suite.insert	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.insert()$/;"	f
+s:suite.keep_original	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.keep_original()$/;"	f
+s:suite.left_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.left_right()$/;"	f
+s:suite.left_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.left_right()$/;"	f
+s:suite.link	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.link()$/;"	f
+s:suite.many1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.many1()$/;"	f
+s:suite.many2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.many2()$/;"	f
+s:suite.many3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.many3()$/;"	f
+s:suite.mode	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^function! s:suite.mode()$/;"	f
+s:suite.mode_map	/home/vagrant/.config/nvim/plugged/lightline.vim/test/mode.vim	/^function! s:suite.mode_map()$/;"	f
+s:suite.modified	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.modified()$/;"	f
+s:suite.multiple	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.multiple()$/;"	f
+s:suite.multiple_type	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.multiple_type()$/;"	f
+s:suite.nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.nil()$/;"	f
+s:suite.nil	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.nil()$/;"	f
+s:suite.no_components	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.no_components()$/;"	f
+s:suite.notfound	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.notfound()$/;"	f
+s:suite.one	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.one()$/;"	f
+s:suite.one	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.one()$/;"	f
+s:suite.one_empty	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.one_empty()$/;"	f
+s:suite.onetab	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.onetab()$/;"	f
+s:suite.raw_type	/home/vagrant/.config/nvim/plugged/lightline.vim/test/expand.vim	/^function! s:suite.raw_type()$/;"	f
+s:suite.replace	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.replace()$/;"	f
+s:suite.replace	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.replace()$/;"	f
+s:suite.subseparator	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.subseparator()$/;"	f
+s:suite.subseparator	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.subseparator()$/;"	f
+s:suite.subseparator_component	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component()$/;"	f
+s:suite.subseparator_component_expand	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_expand()$/;"	f
+s:suite.subseparator_component_expand_1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_expand_1()$/;"	f
+s:suite.subseparator_component_expand_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_expand_2()$/;"	f
+s:suite.subseparator_component_expand_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_expand_3()$/;"	f
+s:suite.subseparator_component_function	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function()$/;"	f
+s:suite.subseparator_component_function_1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_1()$/;"	f
+s:suite.subseparator_component_function_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_2()$/;"	f
+s:suite.subseparator_component_function_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_3()$/;"	f
+s:suite.subseparator_component_function_4	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_4()$/;"	f
+s:suite.subseparator_component_function_5	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_5()$/;"	f
+s:suite.subseparator_component_function_6	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_6()$/;"	f
+s:suite.subseparator_component_function_7	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_7()$/;"	f
+s:suite.subseparator_component_function_visible_condition_1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_1()$/;"	f
+s:suite.subseparator_component_function_visible_condition_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_2()$/;"	f
+s:suite.subseparator_component_function_visible_condition_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_3()$/;"	f
+s:suite.subseparator_component_function_visible_condition_4	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_4()$/;"	f
+s:suite.subseparator_component_function_visible_condition_5	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_5()$/;"	f
+s:suite.subseparator_component_function_visible_condition_6	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_6()$/;"	f
+s:suite.subseparator_component_function_visible_condition_7	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_function_visible_condition_7()$/;"	f
+s:suite.subseparator_component_not_found	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_not_found()$/;"	f
+s:suite.subseparator_component_not_found_1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_not_found_1()$/;"	f
+s:suite.subseparator_component_not_found_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_not_found_2()$/;"	f
+s:suite.subseparator_component_visible_condition_1	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_1()$/;"	f
+s:suite.subseparator_component_visible_condition_2	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_2()$/;"	f
+s:suite.subseparator_component_visible_condition_3	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_3()$/;"	f
+s:suite.subseparator_component_visible_condition_4	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_4()$/;"	f
+s:suite.subseparator_component_visible_condition_5	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_5()$/;"	f
+s:suite.subseparator_component_visible_condition_6	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_6()$/;"	f
+s:suite.subseparator_component_visible_condition_7	/home/vagrant/.config/nvim/plugged/lightline.vim/test/subseparator.vim	/^function! s:suite.subseparator_component_visible_condition_7()$/;"	f
+s:suite.tab_component	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tab_component()$/;"	f
+s:suite.tab_component_empty_left	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tab_component_empty_left()$/;"	f
+s:suite.tab_component_empty_middle	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tab_component_empty_middle()$/;"	f
+s:suite.tab_component_function	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tab_component_function()$/;"	f
+s:suite.tabclose	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabclose()$/;"	f
+s:suite.tabclose_last	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabclose_last()$/;"	f
+s:suite.tabline	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabline()$/;"	f
+s:suite.tabnew	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tabnew()$/;"	f
+s:suite.tabnew	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabnew()$/;"	f
+s:suite.tabnew	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew()$/;"	f
+s:suite.tabnew_20	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20()$/;"	f
+s:suite.tabnew_20_tabfirst	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20_tabfirst()$/;"	f
+s:suite.tabnew_20_tabfirst_tabnext	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20_tabfirst_tabnext()$/;"	f
+s:suite.tabnew_20_tabnext_10	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20_tabnext_10()$/;"	f
+s:suite.tabnew_20_tabprevious	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20_tabprevious()$/;"	f
+s:suite.tabnew_20_tabprevious_tabprevious	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_20_tabprevious_tabprevious()$/;"	f
+s:suite.tabnew_first	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabnew_first()$/;"	f
+s:suite.tabnew_tabfirst	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_tabfirst()$/;"	f
+s:suite.tabnew_tabnew	/home/vagrant/.config/nvim/plugged/lightline.vim/test/onetab.vim	/^function! s:suite.tabnew_tabnew()$/;"	f
+s:suite.tabnew_tabnew	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_tabnew()$/;"	f
+s:suite.tabnew_tabnew_tabfirst	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_tabnew_tabfirst()$/;"	f
+s:suite.tabnew_tabnew_tabprevious	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabnew_tabnew_tabprevious()$/;"	f
+s:suite.tabnext	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabnext()$/;"	f
+s:suite.tabonly	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabline.vim	/^function! s:suite.tabonly()$/;"	f
+s:suite.tabs	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:suite.tabs()$/;"	f
+s:suite.three	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three()$/;"	f
+s:suite.three	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.three()$/;"	f
+s:suite.three_duplicated	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.three_duplicated()$/;"	f
+s:suite.three_empty_all	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_all()$/;"	f
+s:suite.three_empty_left	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_left()$/;"	f
+s:suite.three_empty_left_middle	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_left_middle()$/;"	f
+s:suite.three_empty_left_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_left_right()$/;"	f
+s:suite.three_empty_middle	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_middle()$/;"	f
+s:suite.three_empty_middle_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_middle_right()$/;"	f
+s:suite.three_empty_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.three_empty_right()$/;"	f
+s:suite.toggle	/home/vagrant/.config/nvim/plugged/lightline.vim/test/toggle.vim	/^function! s:suite.toggle()$/;"	f
+s:suite.two	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.two()$/;"	f
+s:suite.two	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.two()$/;"	f
+s:suite.two_duplicated	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:suite.two_duplicated()$/;"	f
+s:suite.two_empty_both	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.two_empty_both()$/;"	f
+s:suite.two_empty_left	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.two_empty_left()$/;"	f
+s:suite.two_empty_right	/home/vagrant/.config/nvim/plugged/lightline.vim/test/concatenate.vim	/^function! s:suite.two_empty_right()$/;"	f
+s:suite.visual	/home/vagrant/.config/nvim/plugged/lightline.vim/test/highlight.vim	/^function! s:suite.visual()$/;"	f
+s:suite.visual	/home/vagrant/.config/nvim/plugged/lightline.vim/test/link.vim	/^function! s:suite.visual()$/;"	f
+s:tab	/home/vagrant/.config/nvim/plugged/lightline.vim/test/tabs.vim	/^function! s:tab(number, ...) abort$/;"	f
+s:tabcnt	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:tabcnt = -1$/;"	v
+s:table	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colortable.vim	/^let s:table = s:load()$/;"	v
+s:tabline	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:tabline = ''$/;"	v
+s:tabline_active_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:tabline_active_bg = '#00afaf'$/;"	v
+s:tabline_active_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:tabline_active_bg = s:window$/;"	v
+s:tabline_active_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:tabline_active_fg = '#1c1c1c'$/;"	v
+s:tabline_active_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:tabline_active_fg = s:foreground$/;"	v
+s:tabline_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:tabline_bg = '#3a3a3a'$/;"	v
+s:tabline_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:tabline_bg = s:navy$/;"	v
+s:tabline_inactive_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:tabline_inactive_bg = '#585858'$/;"	v
+s:tabline_inactive_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:tabline_inactive_bg = s:aqua$/;"	v
+s:tabline_inactive_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:tabline_inactive_fg = '#c6c6c6'$/;"	v
+s:tabline_inactive_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:tabline_inactive_fg = s:background$/;"	v
+s:tabnr	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^let s:tabnr = -1$/;"	v
+s:term	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^function! s:term(p) abort$/;"	f
+s:term_black	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_black = 235$/;"	v
+s:term_blue	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_blue = 39$/;"	v
+s:term_green	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_green = 114$/;"	v
+s:term_grey	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_grey = 236$/;"	v
+s:term_purple	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_purple = 170$/;"	v
+s:term_red	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_red = 204$/;"	v
+s:term_white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_white = 145$/;"	v
+s:term_yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/deus.vim	/^let s:term_yellow = 180$/;"	v
+s:uniq	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  function! s:uniq(xs) abort$/;"	f
+s:uniq	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline.vim	/^  let s:uniq = function('uniq')$/;"	v
+s:uniq	/home/vagrant/.config/nvim/plugged/lightline.vim/test/uniq.vim	/^function! s:uniq(...)$/;"	f
+s:upconvert	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim	/^function! s:upconvert(nr) abort$/;"	f
+s:veryDarkGray	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:veryDarkGray = [ '#1c1d21' , 234 ]$/;"	v
+s:violet	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:violet = [ '#ff00ff', 13 ]$/;"	v
+s:violet	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:violet = [ '#6c71c4', s:cuicolors.violet[s:cuiindex] ]$/;"	v
+s:visual_bg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:visual_bg = '#8787af'$/;"	v
+s:visual_fg	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:visual_fg = '#000000'$/;"	v
+s:white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:white = [ '#f8f8f2', 231 ]$/;"	v
+s:white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:white = [ '#ffffff' , 15 ]$/;"	v
+s:white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:white = [ '#a9b7c6', 250 ]$/;"	v
+s:white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:white = [ '#f8f8f2', 234 ]$/;"	v
+s:white	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:white = [ '#d0d0d0', 252 ]$/;"	v
+s:window	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_dark.vim	/^let s:window = '#efefef'$/;"	v
+s:window	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim	/^let s:window = '#efefef'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/16color.vim	/^let s:yellow = [ '#808000', 3 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Dracula.vim	/^let s:yellow = [ '#f1fa8c', 228 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/OldHope.vim	/^let s:yellow = [ '#e5cd52' , 221 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow.vim	/^let s:yellow = '#eab700'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim	/^let s:yellow = '#f0c674'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Blue.vim	/^let s:yellow = '#ffeead'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Bright.vim	/^let s:yellow = '#e7c547'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night_Eighties.vim	/^let s:yellow = '#ffcc66'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/darcula.vim	/^let s:yellow = [ '#ffc66d', 222 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/jellybeans.vim	/^let s:yellow = [ '#ffb964', 215 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/materia.vim	/^let s:yellow = '#ffcc00'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/material.vim	/^let s:yellow = '#ffcb6b'$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/molokai.vim	/^let s:yellow = [ '#e6db74', 229 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/one.vim	/^let s:yellow = [ '#e5c07b', 180 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/seoul256.vim	/^let s:yellow = [ '#d8af5f', 3 ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/solarized.vim	/^let s:yellow = [ '#b58900', s:cuicolors.yellow[s:cuiindex] ]$/;"	v
+s:yellow	/home/vagrant/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/wombat.vim	/^let s:yellow = [ '#cae682', 180 ]$/;"	v

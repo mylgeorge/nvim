@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/8e09804/
+%.tar.gz	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^%.tar.gz: $(SOURCES)$/;"	t
+%.vmb	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^%.vmb: $(SOURCES)$/;"	t
+%.vmb.gz	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^%.vmb.gz: vimball$/;"	t
+%.vmb.zip	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^%.vmb.zip: vimball$/;"	t
+%.zip	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^%.zip: $(SOURCES)$/;"	t
+<C-G>g	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^    imap <silent> <buffer> <C-G>g <Plug>delimitMateJumpMany$/;"	m
+<Plug>delimitMateBS	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <silent> <Plug>delimitMateBS <C-R>=delimitMate#BS()<CR>$/;"	m
+<Plug>delimitMateCR	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <expr><silent> <Plug>delimitMateCR <SID>TriggerAbb()."\\<C-R>=delimitMate#ExpandRetur/;"	m
+<Plug>delimitMateJumpMany	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <expr><buffer> <Plug>delimitMateJumpMany <SID>TriggerAbb()."\\<C-R>=delimitMate#JumpM/;"	m
+<Plug>delimitMateS-BS	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <silent> <expr> <Plug>delimitMateS-BS delimitMate#WithinEmptyPair() ? "\\<Del>" : "\\/;"	m
+<Plug>delimitMateS-Tab	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <expr><silent> <Plug>delimitMateS-Tab <SID>TriggerAbb()."\\<C-R>=delimitMate#JumpAny(/;"	m
+<Plug>delimitMateSpace	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^  inoremap <expr><silent> <Plug>delimitMateSpace <SID>TriggerAbb()."\\<C-R>=delimitMate#ExpandSp/;"	m
+DESTDIR	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^DESTDIR  =  $(HOME)\/.vim$/;"	m
+DOC	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^DOC      =  $(wildcard doc\/*.txt)$/;"	m
+DelimitMateOff	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOff call s:setup(0)$/;"	c
+DelimitMateOn	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOn call s:setup(1)$/;"	c
+DelimitMateReload	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateReload call s:setup(1)$/;"	c
+DelimitMateSwitch	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateSwitch call s:setup(2)$/;"	c
+DelimitMateTest	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateTest call s:test()$/;"	c
+FILENAME	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^FILENAME =  $(NAME)-$(VERSION)$/;"	m
+LIB	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^LIB      =  $(wildcard autoload\/*.vim)$/;"	m
+NAME	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^NAME     =  delimitMate$/;"	m
+PERL	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^PERL     =  perl$/;"	m
+PLUGIN	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^PLUGIN   =  $(wildcard plugin\/*.vim)$/;"	m
+SED	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^SED      =  $(shell command -v gsed || command -v sed)$/;"	m
+SOURCES	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^SOURCES  =  $(PLUGIN)$/;"	m
+VERSION	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^VERSION  =  $(shell $(SED) -n -e '\/Current \\+release\/{s\/^ \\+\\([0-9.]\\+\\).*\/\\1\/;p;}' $/;"	m
+VIM	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^VIM      =  vim$/;"	m
+all	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^all: zip gzip$/;"	t
+all	/home/vagrant/.config/nvim/plugged/delimitMate/test/Makefile	/^all: build\/runVimTests$/;"	t
+build/VimTAP	/home/vagrant/.config/nvim/plugged/delimitMate/test/Makefile	/^build\/VimTAP:$/;"	t
+build/runVimTests	/home/vagrant/.config/nvim/plugged/delimitMate/test/Makefile	/^build\/runVimTests: build\/VimTAP$/;"	t
+clean	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^clean:$/;"	t
+comma	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^comma    := ,$/;"	m
+commands	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^  let commands = []$/;"	v
+commands	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let commands = []$/;"	v
+delimitMate	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^augroup delimitMate$/;"	a
+delimitMate#BS	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#BS() " {{{$/;"	f
+delimitMate#ExpandReturn	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandReturn() "{{{$/;"	f
+delimitMate#ExpandSpace	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandSpace() "{{{$/;"	f
+delimitMate#Get	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Get(...) "{{{$/;"	f
+delimitMate#IsEmptyPair	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsEmptyPair(str) "{{{$/;"	f
+delimitMate#JumpAny	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpAny(...) " {{{$/;"	f
+delimitMate#JumpMany	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpMany() " {{{$/;"	f
+delimitMate#JumpOut	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpOut(char) "{{{$/;"	f
+delimitMate#ParenDelim	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ParenDelim(right) " {{{$/;"	f
+delimitMate#QuoteDelim	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#QuoteDelim(char) "{{{$/;"	f
+delimitMate#Set	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Set(...) "{{{$/;"	f
+delimitMate#ShouldJump	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ShouldJump(...) "{{{$/;"	f
+delimitMate#SkipDelim	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#SkipDelim(char) "{{{$/;"	f
+delimitMate#Test	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Test() "{{{$/;"	f
+delimitMate#WithinEmptyPair	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WithinEmptyPair() "{{{$/;"	f
+delimitMate_version	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^let delimitMate_version = "2.8"$/;"	v
+dist	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^dist: version all$/;"	t
+distclean	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^distclean: clean$/;"	t
+empty	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^empty    :=$/;"	m
+evaluate	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let evaluate = 0$/;"	v
+evaluate	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let evaluate = 0$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^    let expect = 0$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^    let expect = 1$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let expect = 0$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^    let expect = 0$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^    let expect = 1$/;"	v
+expect	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let expect = 0$/;"	v
+expected	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^    let expected = []$/;"	v
+expected	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^    let expected = []$/;"	v
+g:delimitMate_eol_marker	/home/vagrant/.config/nvim/plugged/delimitMate/test/eol_marker.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_eol_marker	/home/vagrant/.config/nvim/plugged/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_expand_cr	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^    let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/home/vagrant/.config/nvim/plugged/delimitMate/test/eol_marker.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/home/vagrant/.config/nvim/plugged/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_space	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^    let g:delimitMate_expand_space = 1$/;"	v
+g:delimitMate_expand_space	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let g:delimitMate_expand_space = 1$/;"	v
+g:delimitMate_insert_eol_marker	/home/vagrant/.config/nvim/plugged/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 0$/;"	v
+g:delimitMate_insert_eol_marker	/home/vagrant/.config/nvim/plugged/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 1$/;"	v
+g:delimitMate_insert_eol_marker	/home/vagrant/.config/nvim/plugged/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 2$/;"	v
+g:delimitMate_matchpairs	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let g:delimitMate_matchpairs = '(:),{:},[:],<:>,¿:?,¡:!,,::'$/;"	v
+g:delimitMate_quotes	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let g:delimitMate_quotes = '" '' ` « |'$/;"	v
+g:delimitMate_smart_quotes	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^      let g:delimitMate_smart_quotes = ''$/;"	v
+g:loaded_delimitMate	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^let g:loaded_delimitMate = 1$/;"	v
+gzip	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^gzip: $(FILENAME).tar.gz $(FILENAME).vmb.gz$/;"	t
+header	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^    let header = empty(header) ? item[1:] : 'Lines should match.'$/;"	v
+header	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^  let header = ''$/;"	v
+header	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let header = ''$/;"	v
+input2	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input, '(', s:l, 'g')$/;"	v
+input2	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input2, ')', s:r, 'g')$/;"	v
+input_q	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^    let input_q = substitute(input,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
+install	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^install: $(SOURCES)$/;"	t
+itemsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let itemsnumber = len(split(g:delimitMate_matchpairs, '.:.\\zs,\\ze.:.'))$/;"	v
+itemsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let itemsnumber = len(split(g:delimitMate_quotes, ' '))$/;"	v
+line	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let line = getline('.')$/;"	v
+linenr	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^  let linenr += 1$/;"	v
+linenr	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let linenr = 0$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+output2	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output, '(', s:l, 'g')$/;"	v
+output2	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output2, ')', s:r, 'g')$/;"	v
+output_q	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^    let output_q = substitute(output,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
+passed	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let passed = line == eval(output2)$/;"	v
+passed	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^  let passed = lines == expected$/;"	v
+passed	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^  let passed = lines == expected$/;"	v
+quotes	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^  let quotes = split(g:delimitMate_quotes, '\\s')$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 0$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 1$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let reload = 1$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^    let reload = 0$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^    let reload = 1$/;"	v
+reload	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let reload = 1$/;"	v
+runVimTests	/home/vagrant/.config/nvim/plugged/delimitMate/test/_setup.vim	/^let runVimTests = expand('<sfile>:p:h').'\/build\/runVimTests'$/;"	v
+s:AutoClose	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:AutoClose() "{{{$/;"	f
+s:ExtraMappings	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:ExtraMappings() "{{{$/;"	f
+s:Map	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:Map() "{{{$/;"	f
+s:NoAutoClose	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:NoAutoClose() "{{{$/;"	f
+s:TriggerAbb	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:TriggerAbb() "{{{$/;"	f
+s:Unmap	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:Unmap() " {{{$/;"	f
+s:balance_matchpairs	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:balance_matchpairs(char) "{{{$/;"	f
+s:cursor_idx	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:cursor_idx() "{{{$/;"	f
+s:exists	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:exists(name, ...) "{{{$/;"	f
+s:get	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:get(name, ...) "{{{$/;"	f
+s:get	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:get(...) " {{{$/;"	f
+s:get_char	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:get_char(...) "{{{$/;"	f
+s:get_syn_name	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:get_syn_name() "{{{$/;"	f
+s:init	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:init() "{{{$/;"	f
+s:is_cr_expansion	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_cr_expansion(...) " {{{$/;"	f
+s:is_empty_matchpair	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_matchpair() "{{{$/;"	f
+s:is_empty_quotes	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_quotes() "{{{$/;"	f
+s:is_excluded_ft	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_excluded_ft(ft) "{{{$/;"	f
+s:is_forbidden	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_forbidden(char) "{{{$/;"	f
+s:is_jump	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_jump(...) "{{{$/;"	f
+s:is_smart_quote	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_smart_quote(char) "{{{$/;"	f
+s:is_space_expansion	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:is_space_expansion() " {{{$/;"	f
+s:joinUndo	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:joinUndo() "{{{$/;"	f
+s:loaded_delimitMate	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^let s:loaded_delimitMate = 1$/;"	v
+s:lquote	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:lquote(char) "{{{$/;"	f
+s:option_init	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:option_init(name, default) "{{{$/;"	f
+s:options	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^  let s:options = {}$/;"	v
+s:rquote	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:rquote(char) "{{{$/;"	f
+s:set	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:set(name, value, ...) "{{{$/;"	f
+s:set	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:set(...) " {{{$/;"	f
+s:setup	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:setup(...) "{{{$/;"	f
+s:test	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^function! s:test() "{{{$/;"	f
+s:test_mappings	/home/vagrant/.config/nvim/plugged/delimitMate/autoload/delimitMate.vim	/^function! s:test_mappings(list, is_matchpair) "{{{$/;"	f
+save_cpo	/home/vagrant/.config/nvim/plugged/delimitMate/plugin/delimitMate.vim	/^let save_cpo = &cpo$/;"	v
+space	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^space    := $(empty) $(empty)$/;"	m
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^    let tcount += 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let tcount = 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^      let tcount += 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^    let tcount += 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let tcount = 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^  let tcount += 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let tcount = 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^  let tcount += 1$/;"	v
+tcount	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let tcount = 1$/;"	v
+test	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^test:$/;"	t
+testsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_matchpairs.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/autoclose_quotes.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_cr.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
+testsnumber	/home/vagrant/.config/nvim/plugged/delimitMate/test/expand_space.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
+undo	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^undo:$/;"	t
+uninstall	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^uninstall:$/;"	t
+version	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^version:$/;"	t
+vimTAP	/home/vagrant/.config/nvim/plugged/delimitMate/test/_setup.vim	/^let vimTAP = expand('<sfile>:p:h').'\/build\/VimTAP'$/;"	v
+vimball	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^vimball: $(FILENAME).vmb$/;"	t
+zip	/home/vagrant/.config/nvim/plugged/delimitMate/Makefile	/^zip: $(FILENAME).zip $(FILENAME).vmb.zip$/;"	t
