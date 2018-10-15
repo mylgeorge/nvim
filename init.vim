@@ -1,4 +1,18 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Instalation {{{
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" sudo apt build-dep vim
+" install vim and universal-ctags (from source)
+"
+" sudo apt install build-essential curl siversearcher-ag composer php-xml php-mbstring php-zip php-curl
+"
+" => php
+" wget http://vim-php.com/phpctags/install/phpctags.phar -O phpctags
+" wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
+" sudo chmod a+x php-cs-fixer
+" sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
+" }}}
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Declare the general config group for autocommand
@@ -29,8 +43,8 @@ set noswapfile
 
 " save undo trees in files
 if has('persistent_undo')
-    silent !mkdir ~/.config/nvim/undo > /dev/null 2>&1
-    set undodir=~/.config/nvim/undo
+    silent !mkdir ~/.vim/undo > /dev/null 2>&1
+    set undodir=~/.vim/undo
     set undofile
 endif
 
@@ -80,7 +94,7 @@ set lazyredraw    " speed up on large files
 set magic         " For regular expressions turn magic on
 
 set noshowmatch   " Show matching brackets when text indicator is over them
-let g:loaded_matchparen=1
+" let g:loaded_matchparen=0
 
 set mat=2         " How many tenths of a second to blink when matching brackets
 
@@ -124,16 +138,19 @@ set background=dark
 set t_Co=256                " set termguicolors
 
 " silent! colorscheme solarized8_dark_high "monokai  colorscheme
-silent! colorscheme monokai "  colorscheme
+silent! colorscheme sublimemonokai "  colorscheme
 " highlight MatchParen gui=underline guibg=#575b61 guifg=NONE cterm=underline ctermbg=237 ctermfg=NONE
+hi! MatchParen ctermfg=197 ctermbg=NONE cterm=underline guifg=#f92672 guibg=NONE gui=underline
 " PHP {{{
 hi! link phpParent Normal
 hi! link phpIdentifier Normal
 hi! link phpVarSelector phpIdentifier
-hi! link phpFunction SublimeOrange
+" hi! link phpMagicConstants Type
+hi! link phpFunction Tag 
+" SublimeOrange
 hi! link phpFunctions Type
+hi! link phpMethod Type
 hi! link phpClasses Normal
-" hi! link phpMethod Type
 " hi! link phpRegion Type
 hi! link phpType Define
 hi! link phpKeyword phpType
@@ -221,8 +238,8 @@ vnoremap ; :
 " autocmd vimrc BufReadPost * call general#RestorePosition()
 
 " Autoinstall vim-plug {{{
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-    silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
                 \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     autocmd vimrc VimEnter * PlugInstall
 endif
@@ -231,7 +248,7 @@ endif
 "----------------
 " install plugin
 "-----------------
-call plug#begin('~/.config/nvim/plugged') " Plugins initialization start {{{
+call plug#begin('~/.vim/plugged') " Plugins initialization start {{{
 " }}}
 " File Navigation
 " ====================================================================
@@ -317,6 +334,7 @@ Plug 'Lokaltog/vim-easymotion'
 let g:EasyMotion_do_mapping = 1
 let g:EasyMotion_smartcase = 1
 nmap \ <Plug>(easymotion-sn)
+nmap <leader>s <Plug>(easymotion-overwin-f)
 " }}}
 " {{{
 Plug 'rhysd/clever-f.vim'
@@ -338,7 +356,7 @@ Plug 'tomtom/tcomment_vim'
 "  }}}
 " {{{
 Plug 'Raimondi/delimitMate'
-let delimitMate_expand_cr = 2
+let delimitMate_expand_cr    = 2
 let delimitMate_expand_space = 1 " {|} => { | }
 " }}}
 " Plug 'AndrewRadev/splitjoin.vim'
@@ -365,25 +383,27 @@ nnoremap <Leader>gp :Ggrep
 nnoremap <Leader>gR :Gread<CR>
 nnoremap <Leader>gg :Git
 nnoremap <Leader>gd :Gdiff<CR>
-Plug 'mhinz/vim-signify'
+" wget http://vim-php.com/phpctags/install/phpctags.phar -O phpctags
+
+" Plug 'mhinz/vim-signify'
+Plug 'airblade/vim-gitgutter'
 " snippets
 "Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
 " Track the engine.
 " if you use Vundle, load plugins:
 Plug 'ervandew/supertab'
-Plug 'SirVer/ultisnips'
+" Plug 'SirVer/ultisnips
 
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
+" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+" let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<s-tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-let g:UltiSnipsEditSplit="vertical"
+" let g:UltiSnipsExpandTrigger = "<s-tab>"
+" let g:UltiSnipsJumpForwardTrigger = "<tab>"
+" let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+" let g:UltiSnipsEditSplit="vertical"
 " let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips', $HOME.'/.vim/bundle/sniphpets-common/UltiSnips', $HOME.'/.vim/bundle/sniphpets']
 
 " Snippets are separated from the engine. Add this if you want them:
@@ -402,6 +422,16 @@ Plug 'honza/vim-snippets'
 " autocmd FileType php set omnifunc=phpcd#CompletePHP
 " Plug 'valloric/youcompleteme'
 Plug 'Shougo/vimproc'
+" if has('nvim')
+"   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/deoplete.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
+" let g:deoplete#enable_at_startup = 1
+" Plug 'kristijanhusak/deoplete-phpactor'
+" Plug 'kristijanhusak/deoplete-phpactor.vim'
 Plug 'Shougo/unite.vim'
 " Plug 'm2mdas/phpcomplete-extended'
 " Plug 'm2mdas/phpcomplete-extended-laravel'
@@ -429,13 +459,14 @@ nmap <F8> :TagbarToggle<CR>
 
 Plug 'vim-php/tagbar-phpctags.vim'
 let g:tagbar_phpctags_memory_limit = '512M'
-let g:tagbar_phpctags_bin='~/.config/nvim/phpctags'
+let g:tagbar_phpctags_bin='/usr/local/bin/phpctags'
 
 Plug 'ludovicchabant/vim-gutentags'
 " " {{{
 " let g:gutentags_project_info = []
 " call add(g:gutentags_project_info, {'type': 'php', 'file': 'artisan'})
-let g:gutentags_cache_dir = '~/.config/nvim/gutentags'
+let g:gutentags_ctags_extra_args = ['--PHP-kinds=+cfit-va']
+let g:gutentags_cache_dir = '~/.vim/gutentags'
 let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
             \ '*.phar', '*.ini', '*.rst', '*.md',
             \ '*vendor/*/fixture*', '*vendor/*/Fixture*',
@@ -457,7 +488,6 @@ nnoremap <leader>tt :GutentagsUpdate!<CR>
 Plug 'sheerun/vim-polyglot'          " newer language support
 Plug 'lifepillar/vim-solarized8'
 " php autocompletion engine and tools
-
 Plug 'tpope/vim-dispatch'
 Plug 'janko-m/vim-test'
 nnoremap  <silent> tn :TestNearest<CR> " t Ctrl+n
@@ -466,9 +496,6 @@ nnoremap  <silent> ts :TestSuite<CR>   " t Ctrl+s
 nnoremap  <silent> tl :TestLast<CR>    " t Ctrl+l
 nnoremap  <silent> tg :TestVisit<CR>   " t Ctrl+g
 
-" wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
-" sudo chmod a+x php-cs-fixer
-" sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
 Plug 'stephpy/vim-php-cs-fixer', {'for': 'php'}
 nnoremap <silent><leader>l :silent! call PhpCsFixerFixFile()<CR>
 let g:php_cs_fixer_verbose = 0
@@ -505,7 +532,9 @@ inoremap <C-Space> <C-x><C-o>
 imap <C-@> <C-Space>
 " refactoring options
 " Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
-" Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
+Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
+autocmd FileType php setlocal omnifunc=phpactor#Complete
+" let g:phpactorOmniErrors = v:true
 " Plug 'roxma/ncm-phpactor',  {'for': 'php'}
 " Plug '2072/php-indenting-for-vim', {'for': 'php'}
 
